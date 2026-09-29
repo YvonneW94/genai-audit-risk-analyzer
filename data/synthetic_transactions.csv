@@ -1,0 +1,1001 @@
+transaction_id,vendor_id,vendor_name,invoice_number,transaction_date,amount,approver,department,payment_method,description,expected_risk_type
+TXN-00001,V-001,Pacific Equipment,INV-890316,2026-07-08,840.55,A. Chen,Operations,Corporate Card,Data services,normal
+TXN-00002,V-007,Metro Data Services,INV-155856,2026-06-12,2952.01,M. Garcia,Marketing,Wire,Marketing services,normal
+TXN-00003,V-006,Redwood Marketing,INV-457768,2026-08-13,748.63,A. Chen,Engineering,Corporate Card,Office equipment,normal
+TXN-00004,V-004,Brightline Solutions,INV-512435,2026-08-21,1358.13,J. Smith,Operations,Wire,Marketing services,normal
+TXN-00005,V-004,Blue Harbor Technology,INV-818090,2026-06-19,1117.74,M. Garcia,Human Resources,Wire,Office equipment,normal
+TXN-00006,V-007,Brightline Solutions,INV-216126,2026-04-01,1820.39,A. Chen,Operations,ACH,Marketing services,normal
+TXN-00007,V-001,Pacific Equipment,INV-490652,2026-05-26,1078.88,J. Smith,Engineering,Corporate Card,Logistics support,normal
+TXN-00008,V-006,Redwood Marketing,INV-237093,2026-04-14,1371.86,J. Smith,Finance,ACH,Data services,normal
+TXN-00009,V-002,Metro Data Services,INV-808871,2026-06-02,1403.21,L. Johnson,Human Resources,ACH,Data services,normal
+TXN-00010,V-001,Redwood Marketing,INV-669053,2026-07-16,1015.0,L. Johnson,Finance,ACH,Office equipment,normal
+TXN-00011,V-005,Summit Office Supply,INV-547063,2026-03-31,2242.42,,Marketing,ACH,Logistics support,missing_approval
+TXN-00012,V-008,Pacific Equipment,INV-453634,2026-05-04,1910.18,,Human Resources,ACH,Marketing services,missing_approval
+TXN-00013,V-006,Blue Harbor Technology,INV-237856,2026-01-12,1544.42,,Human Resources,ACH,Data services,missing_approval
+TXN-00014,V-007,Summit Office Supply,INV-929666,2026-06-29,1236.7,,Operations,ACH,Professional services,missing_approval
+TXN-00015,V-006,Redwood Marketing,INV-682894,2026-04-29,2745.6,,Operations,Wire,Professional services,missing_approval
+TXN-00016,V-007,Pacific Equipment,INV-387240,2026-04-22,1403.48,,Finance,ACH,Professional services,missing_approval
+TXN-00017,V-005,Greenfield Logistics,INV-472542,2026-05-11,1340.3,,Human Resources,Wire,Logistics support,missing_approval
+TXN-00018,V-002,Greenfield Logistics,INV-753561,2026-02-23,1751.19,,Finance,ACH,Logistics support,missing_approval
+TXN-00019,V-007,Northstar Consulting,INV-747607,2026-05-26,4928.46,,Finance,Wire,Professional services,missing_approval
+TXN-00020,V-004,Northstar Consulting,INV-514989,2026-06-30,684.55,,Operations,ACH,Professional services,missing_approval
+TXN-00021,V-005,Northstar Consulting,INV-372610,2026-03-26,2698.38,J. Smith,Finance,Corporate Card,Logistics support,normal
+TXN-00022,V-003,Northstar Consulting,INV-693955,2026-02-02,477.92,J. Smith,Finance,ACH,Data services,normal
+TXN-00023,V-002,Pacific Equipment,INV-692408,2026-04-03,1884.14,A. Chen,Engineering,ACH,Office equipment,normal
+TXN-00024,V-008,Pacific Equipment,INV-639725,2026-02-18,4554.19,L. Johnson,Engineering,ACH,Marketing services,normal
+TXN-00025,V-007,Pacific Equipment,INV-165566,2026-04-01,2247.64,A. Chen,Marketing,ACH,Software subscription,normal
+TXN-00026,V-006,Northstar Consulting,INV-525505,2026-06-02,1827.87,S. Patel,Engineering,ACH,Software subscription,normal
+TXN-00027,V-004,Northstar Consulting,INV-652526,2026-01-28,1136.5,S. Patel,Engineering,Wire,Office equipment,normal
+TXN-00028,V-007,Summit Office Supply,INV-955054,2026-07-01,1669.34,S. Patel,Marketing,Corporate Card,Technical consulting,normal
+TXN-00029,V-005,Redwood Marketing,INV-573006,2026-02-24,1388.75,L. Johnson,Engineering,Wire,Logistics support,normal
+TXN-00030,V-004,Summit Office Supply,INV-408441,2026-08-05,981.53,A. Chen,Operations,ACH,Software subscription,normal
+TXN-00031,V-004,Greenfield Logistics,INV-600213,2026-06-26,1355.03,J. Smith,Human Resources,ACH,Data services,duplicate_payment
+TXN-00032,V-002,Blue Harbor Technology,INV-259511,2026-03-09,1861.15,A. Chen,Finance,Wire,Technical consulting,duplicate_payment
+TXN-00033,V-001,Metro Data Services,INV-181625,2026-05-18,993.57,M. Garcia,Marketing,Wire,Technical consulting,duplicate_payment
+TXN-00034,V-005,Summit Office Supply,INV-710283,2026-01-28,968.66,S. Patel,Marketing,ACH,Logistics support,duplicate_payment
+TXN-00035,V-008,Northstar Consulting,INV-987564,2026-01-26,675.76,L. Johnson,Marketing,Corporate Card,Professional services,duplicate_payment
+TXN-00036,V-001,Metro Data Services,INV-861405,2026-08-20,2109.0,J. Smith,Human Resources,ACH,Software subscription,duplicate_payment
+TXN-00037,V-007,Brightline Solutions,INV-625295,2026-07-14,2331.95,J. Smith,Engineering,Wire,Software subscription,duplicate_payment
+TXN-00038,V-007,Northstar Consulting,INV-136228,2026-02-06,1901.84,L. Johnson,Operations,Corporate Card,Software subscription,duplicate_payment
+TXN-00039,V-003,Greenfield Logistics,INV-989172,2026-03-10,3063.65,S. Patel,Operations,Wire,Software subscription,duplicate_payment
+TXN-00040,V-006,Pacific Equipment,INV-504668,2026-02-18,1732.14,S. Patel,Human Resources,ACH,Office equipment,duplicate_payment
+TXN-00041,V-004,Greenfield Logistics,INV-600213,2026-04-07,1355.03,M. Garcia,Human Resources,ACH,Data services,duplicate_payment
+TXN-00042,V-002,Blue Harbor Technology,INV-259511,2026-03-12,1861.15,M. Garcia,Finance,Wire,Technical consulting,duplicate_payment
+TXN-00043,V-001,Metro Data Services,INV-181625,2026-03-20,993.57,J. Smith,Marketing,Wire,Technical consulting,duplicate_payment
+TXN-00044,V-005,Summit Office Supply,INV-710283,2026-05-08,968.66,S. Patel,Marketing,ACH,Logistics support,duplicate_payment
+TXN-00045,V-008,Northstar Consulting,INV-987564,2026-02-16,675.76,J. Smith,Marketing,Corporate Card,Professional services,duplicate_payment
+TXN-00046,V-001,Metro Data Services,INV-861405,2026-08-03,2109.0,L. Johnson,Human Resources,ACH,Software subscription,duplicate_payment
+TXN-00047,V-007,Brightline Solutions,INV-625295,2026-06-25,2331.95,A. Chen,Engineering,Wire,Software subscription,duplicate_payment
+TXN-00048,V-007,Northstar Consulting,INV-136228,2026-07-03,1901.84,M. Garcia,Operations,Corporate Card,Software subscription,duplicate_payment
+TXN-00049,V-003,Greenfield Logistics,INV-989172,2026-02-11,3063.65,J. Smith,Operations,Wire,Software subscription,duplicate_payment
+TXN-00050,V-006,Pacific Equipment,INV-504668,2026-06-22,1732.14,S. Patel,Human Resources,ACH,Office equipment,duplicate_payment
+TXN-00051,V-007,Redwood Marketing,INV-255058,2026-07-22,3393.92,S. Patel,Finance,ACH,Technical consulting,normal
+TXN-00052,V-002,Summit Office Supply,INV-372231,2026-02-12,1538.82,L. Johnson,Finance,ACH,Software subscription,normal
+TXN-00053,V-003,Redwood Marketing,INV-425066,2026-07-01,794.64,S. Patel,Marketing,ACH,Marketing services,normal
+TXN-00054,V-004,Brightline Solutions,INV-952781,2026-03-27,3542.93,J. Smith,Human Resources,ACH,Technical consulting,normal
+TXN-00055,V-004,Northstar Consulting,INV-743054,2026-07-10,2456.98,J. Smith,Operations,ACH,Logistics support,normal
+TXN-00056,V-001,Brightline Solutions,INV-429701,2026-04-27,719.13,L. Johnson,Human Resources,ACH,Software subscription,normal
+TXN-00057,V-005,Greenfield Logistics,INV-761249,2026-07-14,5193.53,M. Garcia,Engineering,ACH,Technical consulting,normal
+TXN-00058,V-002,Pacific Equipment,INV-764658,2026-02-05,2510.45,A. Chen,Operations,ACH,Office equipment,normal
+TXN-00059,V-006,Greenfield Logistics,INV-454799,2026-04-06,1625.18,L. Johnson,Marketing,ACH,Data services,normal
+TXN-00060,V-006,Summit Office Supply,INV-462825,2026-03-09,4599.22,S. Patel,Marketing,Wire,Data services,normal
+TXN-00061,V-008,Pacific Equipment,INV-904863,2026-03-02,83676.09,A. Chen,Finance,ACH,Logistics support,amount_outlier
+TXN-00062,V-006,Metro Data Services,INV-605636,2026-03-17,64085.03,S. Patel,Operations,ACH,Professional services,amount_outlier
+TXN-00063,V-003,Blue Harbor Technology,INV-234563,2026-04-03,95762.29,S. Patel,Marketing,Corporate Card,Data services,amount_outlier
+TXN-00064,V-008,Metro Data Services,INV-747803,2026-02-02,65317.31,S. Patel,Marketing,ACH,Logistics support,amount_outlier
+TXN-00065,V-004,Pacific Equipment,INV-630610,2026-06-22,59908.95,L. Johnson,Finance,ACH,Data services,amount_outlier
+TXN-00066,V-003,Greenfield Logistics,INV-558040,2026-05-14,97728.39,M. Garcia,Engineering,ACH,Software subscription,amount_outlier
+TXN-00067,V-008,Brightline Solutions,INV-752593,2026-07-21,90528.03,M. Garcia,Human Resources,ACH,Professional services,amount_outlier
+TXN-00068,V-003,Metro Data Services,INV-916376,2026-06-19,67156.88,S. Patel,Operations,ACH,Data services,amount_outlier
+TXN-00069,V-001,Summit Office Supply,INV-397392,2026-02-05,92071.59,A. Chen,Operations,Wire,Marketing services,amount_outlier
+TXN-00070,V-004,Northstar Consulting,INV-477370,2026-01-19,75940.71,A. Chen,Human Resources,Wire,Data services,amount_outlier
+TXN-00071,V-007,Metro Data Services,INV-270545,2026-04-14,628.49,L. Johnson,Operations,ACH,Technical consulting,normal
+TXN-00072,V-002,Blue Harbor Technology,INV-682363,2026-04-28,2362.2,J. Smith,Engineering,ACH,Marketing services,normal
+TXN-00073,V-004,Pacific Equipment,INV-462442,2026-02-27,301.5,M. Garcia,Operations,ACH,Data services,normal
+TXN-00074,V-002,Redwood Marketing,INV-408125,2026-07-09,1869.67,J. Smith,Operations,ACH,Professional services,normal
+TXN-00075,V-006,Greenfield Logistics,INV-726870,2026-05-21,1199.0,J. Smith,Operations,ACH,Data services,normal
+TXN-00076,V-004,Blue Harbor Technology,INV-467340,2026-07-01,3829.01,M. Garcia,Engineering,Wire,Software subscription,normal
+TXN-00077,V-003,Metro Data Services,INV-517930,2026-01-27,1187.07,L. Johnson,Engineering,Corporate Card,Logistics support,normal
+TXN-00078,V-002,Blue Harbor Technology,INV-496044,2026-07-17,2511.57,M. Garcia,Operations,ACH,Software subscription,normal
+TXN-00079,V-005,Greenfield Logistics,INV-332684,2026-02-19,1263.96,A. Chen,Finance,Wire,Technical consulting,normal
+TXN-00080,V-006,Pacific Equipment,INV-213226,2026-04-20,1761.53,J. Smith,Human Resources,ACH,Office equipment,normal
+TXN-00081,V-008,Brightline Solutions,INV-844509,2026-03-07,2641.08,A. Chen,Human Resources,ACH,Data services,weekend_transaction
+TXN-00082,V-004,Brightline Solutions,INV-182551,2026-03-14,1211.17,L. Johnson,Finance,Corporate Card,Software subscription,weekend_transaction
+TXN-00083,V-002,Brightline Solutions,INV-392390,2026-03-21,3126.79,J. Smith,Marketing,ACH,Software subscription,weekend_transaction
+TXN-00084,V-007,Redwood Marketing,INV-700740,2026-03-28,857.56,J. Smith,Human Resources,Wire,Technical consulting,weekend_transaction
+TXN-00085,V-006,Blue Harbor Technology,INV-218165,2026-04-04,1981.25,A. Chen,Marketing,Wire,Software subscription,weekend_transaction
+TXN-00086,V-006,Pacific Equipment,INV-689965,2026-04-11,2980.11,M. Garcia,Human Resources,Corporate Card,Data services,weekend_transaction
+TXN-00087,V-001,Pacific Equipment,INV-759758,2026-04-18,2512.48,L. Johnson,Engineering,ACH,Technical consulting,weekend_transaction
+TXN-00088,V-003,Brightline Solutions,INV-696618,2026-04-25,5685.58,M. Garcia,Human Resources,ACH,Marketing services,weekend_transaction
+TXN-00089,V-007,Metro Data Services,INV-374529,2026-05-02,996.02,S. Patel,Finance,Wire,Professional services,weekend_transaction
+TXN-00090,V-007,Blue Harbor Technology,INV-117789,2026-05-09,667.51,A. Chen,Operations,Wire,Office equipment,weekend_transaction
+TXN-00091,V-004,Redwood Marketing,INV-898616,2026-03-25,857.21,A. Chen,Operations,ACH,Office equipment,normal
+TXN-00092,V-007,Greenfield Logistics,INV-393891,2026-04-06,2513.14,S. Patel,Human Resources,Wire,Software subscription,normal
+TXN-00093,V-007,Pacific Equipment,INV-824504,2026-06-24,2261.2,A. Chen,Marketing,ACH,Software subscription,normal
+TXN-00094,V-004,Greenfield Logistics,INV-278028,2026-02-27,1748.42,M. Garcia,Marketing,ACH,Data services,normal
+TXN-00095,V-008,Summit Office Supply,INV-246169,2026-08-10,788.46,J. Smith,Finance,Corporate Card,Office equipment,normal
+TXN-00096,V-003,Northstar Consulting,INV-800335,2026-07-02,2693.14,A. Chen,Engineering,ACH,Office equipment,normal
+TXN-00097,V-002,Pacific Equipment,INV-945757,2026-02-12,738.0,M. Garcia,Human Resources,ACH,Office equipment,normal
+TXN-00098,V-006,Pacific Equipment,INV-874566,2026-03-18,3474.89,L. Johnson,Finance,Corporate Card,Office equipment,normal
+TXN-00099,V-006,Northstar Consulting,INV-776120,2026-02-13,10481.16,A. Chen,Marketing,Wire,Software subscription,normal
+TXN-00100,V-002,Greenfield Logistics,INV-322012,2026-03-09,2075.99,L. Johnson,Marketing,Corporate Card,Data services,normal
+TXN-00101,V-999,Vertex Advisory,INV-921888,2026-05-12,9800.0,A. Chen,Finance,ACH,Technical consulting,split_transaction
+TXN-00102,V-999,Vertex Advisory,INV-701063,2026-05-12,9700.0,A. Chen,Finance,Corporate Card,Data services,split_transaction
+TXN-00103,V-999,Vertex Advisory,INV-254947,2026-05-12,9600.0,A. Chen,Finance,ACH,Marketing services,split_transaction
+TXN-00104,V-001,Blue Harbor Technology,INV-216426,2026-04-16,1105.7,L. Johnson,Marketing,ACH,Technical consulting,normal
+TXN-00105,V-007,Summit Office Supply,INV-884044,2026-06-19,804.02,A. Chen,Operations,ACH,Marketing services,normal
+TXN-00106,V-007,Blue Harbor Technology,INV-347636,2026-03-16,638.71,L. Johnson,Marketing,Wire,Software subscription,normal
+TXN-00107,V-007,Blue Harbor Technology,INV-789302,2026-07-28,5011.72,S. Patel,Finance,Corporate Card,Office equipment,normal
+TXN-00108,V-006,Brightline Solutions,INV-224788,2026-03-31,1953.47,J. Smith,Human Resources,Wire,Data services,normal
+TXN-00109,V-004,Brightline Solutions,INV-352484,2026-08-06,2093.93,A. Chen,Operations,ACH,Data services,normal
+TXN-00110,V-006,Northstar Consulting,INV-355168,2026-02-26,1338.27,S. Patel,Marketing,ACH,Software subscription,normal
+TXN-00111,V-003,Metro Data Services,INV-352993,2026-05-12,1462.11,A. Chen,Engineering,ACH,Professional services,normal
+TXN-00112,V-007,Blue Harbor Technology,INV-707262,2026-07-06,3062.41,S. Patel,Engineering,ACH,Office equipment,normal
+TXN-00113,V-005,Blue Harbor Technology,INV-922949,2026-01-15,1601.96,S. Patel,Finance,ACH,Technical consulting,normal
+TXN-00114,V-004,Summit Office Supply,INV-919293,2026-08-13,2309.88,J. Smith,Finance,ACH,Logistics support,normal
+TXN-00115,V-005,Blue Harbor Technology,INV-767394,2026-03-31,1440.29,J. Smith,Finance,Corporate Card,Logistics support,normal
+TXN-00116,V-005,Greenfield Logistics,INV-282269,2026-05-01,1309.76,J. Smith,Engineering,Wire,Software subscription,normal
+TXN-00117,V-001,Brightline Solutions,INV-964521,2026-06-02,655.57,J. Smith,Engineering,Wire,Office equipment,normal
+TXN-00118,V-002,Redwood Marketing,INV-587870,2026-06-05,452.35,A. Chen,Engineering,ACH,Marketing services,normal
+TXN-00119,V-002,Metro Data Services,INV-591369,2026-01-07,1380.2,J. Smith,Engineering,ACH,Data services,normal
+TXN-00120,V-001,Greenfield Logistics,INV-731251,2026-07-30,1697.18,S. Patel,Operations,ACH,Office equipment,normal
+TXN-00121,V-004,Northstar Consulting,INV-792185,2026-06-01,709.11,J. Smith,Operations,ACH,Office equipment,normal
+TXN-00122,V-006,Northstar Consulting,INV-957629,2026-08-31,1599.73,S. Patel,Engineering,ACH,Professional services,normal
+TXN-00123,V-006,Summit Office Supply,INV-624141,2026-04-24,1694.15,L. Johnson,Marketing,ACH,Technical consulting,normal
+TXN-00124,V-004,Blue Harbor Technology,INV-649053,2026-05-29,402.86,S. Patel,Human Resources,ACH,Technical consulting,normal
+TXN-00125,V-007,Pacific Equipment,INV-770974,2026-04-17,902.5,M. Garcia,Human Resources,Wire,Professional services,normal
+TXN-00126,V-005,Pacific Equipment,INV-329595,2026-08-04,2131.8,J. Smith,Human Resources,ACH,Office equipment,normal
+TXN-00127,V-001,Pacific Equipment,INV-376941,2026-07-22,2103.98,L. Johnson,Human Resources,ACH,Data services,normal
+TXN-00128,V-007,Metro Data Services,INV-662929,2026-08-10,772.87,J. Smith,Marketing,ACH,Logistics support,normal
+TXN-00129,V-005,Redwood Marketing,INV-157715,2026-05-04,1813.46,M. Garcia,Finance,ACH,Technical consulting,normal
+TXN-00130,V-006,Metro Data Services,INV-388441,2026-07-10,3179.77,M. Garcia,Operations,ACH,Office equipment,normal
+TXN-00131,V-005,Greenfield Logistics,INV-746195,2026-03-30,2711.07,S. Patel,Engineering,ACH,Logistics support,normal
+TXN-00132,V-005,Metro Data Services,INV-978514,2026-04-22,1537.73,M. Garcia,Engineering,ACH,Technical consulting,normal
+TXN-00133,V-001,Pacific Equipment,INV-567546,2026-07-03,1206.91,S. Patel,Marketing,ACH,Logistics support,normal
+TXN-00134,V-005,Pacific Equipment,INV-459708,2026-01-21,1086.73,L. Johnson,Marketing,Corporate Card,Office equipment,normal
+TXN-00135,V-007,Redwood Marketing,INV-496338,2026-06-22,2217.38,J. Smith,Operations,ACH,Logistics support,normal
+TXN-00136,V-003,Northstar Consulting,INV-716884,2026-01-05,1857.19,L. Johnson,Human Resources,ACH,Office equipment,normal
+TXN-00137,V-005,Metro Data Services,INV-590026,2026-05-21,2462.94,A. Chen,Finance,ACH,Professional services,normal
+TXN-00138,V-001,Summit Office Supply,INV-120904,2026-04-27,1782.4,L. Johnson,Marketing,ACH,Logistics support,normal
+TXN-00139,V-003,Metro Data Services,INV-585315,2026-04-24,2785.54,A. Chen,Marketing,ACH,Logistics support,normal
+TXN-00140,V-004,Redwood Marketing,INV-460054,2026-04-30,1739.73,L. Johnson,Human Resources,Corporate Card,Office equipment,normal
+TXN-00141,V-008,Brightline Solutions,INV-730720,2026-04-30,2724.52,J. Smith,Operations,ACH,Data services,normal
+TXN-00142,V-002,Summit Office Supply,INV-887595,2026-04-09,2881.41,L. Johnson,Finance,ACH,Office equipment,normal
+TXN-00143,V-003,Brightline Solutions,INV-966202,2026-04-21,969.77,A. Chen,Marketing,ACH,Professional services,normal
+TXN-00144,V-004,Pacific Equipment,INV-649204,2026-05-19,505.07,M. Garcia,Finance,ACH,Technical consulting,normal
+TXN-00145,V-008,Summit Office Supply,INV-426305,2026-07-06,4461.63,L. Johnson,Operations,ACH,Professional services,normal
+TXN-00146,V-007,Greenfield Logistics,INV-499548,2026-05-14,1933.0,A. Chen,Human Resources,ACH,Data services,normal
+TXN-00147,V-001,Redwood Marketing,INV-258815,2026-06-05,536.78,J. Smith,Operations,ACH,Professional services,normal
+TXN-00148,V-002,Pacific Equipment,INV-942342,2026-07-22,1028.67,A. Chen,Human Resources,Corporate Card,Marketing services,normal
+TXN-00149,V-007,Metro Data Services,INV-862579,2026-08-28,2701.92,J. Smith,Engineering,Wire,Technical consulting,normal
+TXN-00150,V-001,Pacific Equipment,INV-868585,2026-01-27,1364.05,J. Smith,Human Resources,Corporate Card,Marketing services,normal
+TXN-00151,V-007,Summit Office Supply,INV-395310,2026-06-23,1172.81,S. Patel,Marketing,ACH,Marketing services,normal
+TXN-00152,V-003,Redwood Marketing,INV-389993,2026-02-24,4066.64,J. Smith,Human Resources,Wire,Logistics support,normal
+TXN-00153,V-008,Greenfield Logistics,INV-870951,2026-02-18,828.21,A. Chen,Marketing,ACH,Technical consulting,normal
+TXN-00154,V-003,Brightline Solutions,INV-590093,2026-07-13,973.79,A. Chen,Operations,ACH,Technical consulting,normal
+TXN-00155,V-004,Summit Office Supply,INV-734189,2026-01-16,1876.95,L. Johnson,Engineering,Corporate Card,Software subscription,normal
+TXN-00156,V-006,Redwood Marketing,INV-540841,2026-07-24,2108.63,L. Johnson,Marketing,Wire,Data services,normal
+TXN-00157,V-002,Northstar Consulting,INV-498492,2026-07-07,2258.88,J. Smith,Marketing,Corporate Card,Logistics support,normal
+TXN-00158,V-005,Pacific Equipment,INV-668981,2026-08-31,2958.11,A. Chen,Finance,Wire,Office equipment,normal
+TXN-00159,V-005,Greenfield Logistics,INV-831682,2026-06-11,1861.38,A. Chen,Finance,ACH,Marketing services,normal
+TXN-00160,V-007,Summit Office Supply,INV-400699,2026-07-31,2248.68,L. Johnson,Operations,Wire,Professional services,normal
+TXN-00161,V-008,Redwood Marketing,INV-828229,2026-01-29,1382.31,S. Patel,Human Resources,ACH,Technical consulting,normal
+TXN-00162,V-006,Greenfield Logistics,INV-319784,2026-08-04,1704.03,S. Patel,Marketing,Corporate Card,Marketing services,normal
+TXN-00163,V-004,Pacific Equipment,INV-462544,2026-02-09,1754.43,J. Smith,Operations,Wire,Logistics support,normal
+TXN-00164,V-004,Redwood Marketing,INV-921403,2026-03-18,1881.48,S. Patel,Human Resources,ACH,Logistics support,normal
+TXN-00165,V-004,Redwood Marketing,INV-959006,2026-02-02,2703.09,A. Chen,Engineering,ACH,Software subscription,normal
+TXN-00166,V-007,Northstar Consulting,INV-931486,2026-04-08,2346.89,S. Patel,Finance,ACH,Data services,normal
+TXN-00167,V-003,Northstar Consulting,INV-384439,2026-07-01,1683.69,M. Garcia,Operations,ACH,Technical consulting,normal
+TXN-00168,V-002,Greenfield Logistics,INV-858989,2026-03-06,966.87,J. Smith,Finance,ACH,Software subscription,normal
+TXN-00169,V-003,Brightline Solutions,INV-942477,2026-07-20,1709.55,S. Patel,Marketing,Wire,Logistics support,normal
+TXN-00170,V-001,Brightline Solutions,INV-980383,2026-05-27,1606.46,S. Patel,Marketing,ACH,Office equipment,normal
+TXN-00171,V-001,Metro Data Services,INV-118813,2026-06-02,1854.87,M. Garcia,Engineering,Wire,Marketing services,normal
+TXN-00172,V-001,Metro Data Services,INV-770491,2026-08-17,6865.34,A. Chen,Finance,ACH,Data services,normal
+TXN-00173,V-007,Greenfield Logistics,INV-997070,2026-04-15,1163.92,A. Chen,Marketing,ACH,Marketing services,normal
+TXN-00174,V-006,Blue Harbor Technology,INV-788199,2026-03-25,2152.72,L. Johnson,Marketing,ACH,Logistics support,normal
+TXN-00175,V-006,Northstar Consulting,INV-309856,2026-08-31,3276.4,J. Smith,Marketing,Corporate Card,Office equipment,normal
+TXN-00176,V-004,Summit Office Supply,INV-786330,2026-05-15,1743.59,J. Smith,Engineering,ACH,Software subscription,normal
+TXN-00177,V-006,Summit Office Supply,INV-194719,2026-05-29,7477.09,S. Patel,Marketing,ACH,Office equipment,normal
+TXN-00178,V-002,Blue Harbor Technology,INV-532546,2026-03-13,1279.56,J. Smith,Marketing,ACH,Marketing services,normal
+TXN-00179,V-008,Summit Office Supply,INV-663604,2026-02-23,2019.61,J. Smith,Operations,Wire,Logistics support,normal
+TXN-00180,V-005,Northstar Consulting,INV-510806,2026-02-11,973.38,S. Patel,Engineering,ACH,Logistics support,normal
+TXN-00181,V-008,Redwood Marketing,INV-729849,2026-02-24,1301.81,M. Garcia,Finance,ACH,Office equipment,normal
+TXN-00182,V-002,Brightline Solutions,INV-316203,2026-02-17,1923.32,S. Patel,Human Resources,Wire,Technical consulting,normal
+TXN-00183,V-004,Metro Data Services,INV-645597,2026-07-01,2835.85,A. Chen,Human Resources,Wire,Professional services,normal
+TXN-00184,V-006,Greenfield Logistics,INV-680336,2026-01-15,2013.06,M. Garcia,Engineering,ACH,Professional services,normal
+TXN-00185,V-004,Greenfield Logistics,INV-670415,2026-06-02,3708.66,M. Garcia,Operations,ACH,Professional services,normal
+TXN-00186,V-004,Summit Office Supply,INV-360387,2026-08-19,1538.05,S. Patel,Engineering,ACH,Technical consulting,normal
+TXN-00187,V-002,Blue Harbor Technology,INV-374843,2026-07-06,1318.29,A. Chen,Operations,ACH,Software subscription,normal
+TXN-00188,V-004,Redwood Marketing,INV-332027,2026-04-08,9486.17,A. Chen,Marketing,Wire,Marketing services,normal
+TXN-00189,V-002,Redwood Marketing,INV-515598,2026-01-15,2113.83,S. Patel,Marketing,ACH,Logistics support,normal
+TXN-00190,V-003,Northstar Consulting,INV-627364,2026-07-22,1024.89,S. Patel,Finance,ACH,Logistics support,normal
+TXN-00191,V-006,Greenfield Logistics,INV-426282,2026-01-01,1041.82,L. Johnson,Human Resources,ACH,Technical consulting,normal
+TXN-00192,V-006,Summit Office Supply,INV-468983,2026-06-15,886.48,J. Smith,Marketing,ACH,Professional services,normal
+TXN-00193,V-005,Blue Harbor Technology,INV-357770,2026-06-12,3007.22,L. Johnson,Marketing,ACH,Office equipment,normal
+TXN-00194,V-003,Metro Data Services,INV-296970,2026-02-17,1290.98,J. Smith,Human Resources,Wire,Data services,normal
+TXN-00195,V-008,Redwood Marketing,INV-691693,2026-06-29,1777.18,S. Patel,Operations,ACH,Marketing services,normal
+TXN-00196,V-001,Metro Data Services,INV-834449,2026-02-12,1569.82,A. Chen,Engineering,Corporate Card,Marketing services,normal
+TXN-00197,V-003,Metro Data Services,INV-361633,2026-02-25,2631.92,L. Johnson,Marketing,Wire,Data services,normal
+TXN-00198,V-001,Brightline Solutions,INV-874512,2026-07-16,943.52,J. Smith,Marketing,ACH,Office equipment,normal
+TXN-00199,V-003,Pacific Equipment,INV-613879,2026-08-26,813.12,L. Johnson,Engineering,ACH,Professional services,normal
+TXN-00200,V-008,Redwood Marketing,INV-250929,2026-03-05,1892.76,J. Smith,Operations,ACH,Data services,normal
+TXN-00201,V-003,Brightline Solutions,INV-429398,2026-08-12,2417.82,S. Patel,Finance,ACH,Software subscription,normal
+TXN-00202,V-008,Greenfield Logistics,INV-106756,2026-08-10,2030.72,M. Garcia,Human Resources,ACH,Data services,normal
+TXN-00203,V-004,Brightline Solutions,INV-135252,2026-07-07,966.67,A. Chen,Operations,Corporate Card,Logistics support,normal
+TXN-00204,V-006,Pacific Equipment,INV-402516,2026-02-04,2541.13,A. Chen,Engineering,ACH,Data services,normal
+TXN-00205,V-004,Metro Data Services,INV-509015,2026-03-13,1008.77,S. Patel,Marketing,ACH,Marketing services,normal
+TXN-00206,V-003,Brightline Solutions,INV-817758,2026-06-15,1165.61,A. Chen,Operations,ACH,Professional services,normal
+TXN-00207,V-007,Redwood Marketing,INV-220872,2026-08-31,885.75,J. Smith,Engineering,ACH,Marketing services,normal
+TXN-00208,V-008,Metro Data Services,INV-855255,2026-07-16,3811.4,M. Garcia,Human Resources,Corporate Card,Data services,normal
+TXN-00209,V-003,Summit Office Supply,INV-311070,2026-04-13,2469.38,J. Smith,Marketing,ACH,Professional services,normal
+TXN-00210,V-007,Brightline Solutions,INV-224496,2026-02-26,2424.17,A. Chen,Engineering,Wire,Software subscription,normal
+TXN-00211,V-003,Redwood Marketing,INV-729902,2026-08-21,3680.07,S. Patel,Human Resources,Wire,Logistics support,normal
+TXN-00212,V-006,Pacific Equipment,INV-796901,2026-03-09,10180.42,S. Patel,Engineering,ACH,Technical consulting,normal
+TXN-00213,V-007,Greenfield Logistics,INV-644420,2026-03-25,538.62,S. Patel,Finance,ACH,Data services,normal
+TXN-00214,V-004,Pacific Equipment,INV-204133,2026-08-21,1012.38,L. Johnson,Finance,ACH,Technical consulting,normal
+TXN-00215,V-006,Northstar Consulting,INV-203810,2026-05-18,1096.07,A. Chen,Marketing,Corporate Card,Software subscription,normal
+TXN-00216,V-003,Northstar Consulting,INV-451055,2026-03-05,941.02,M. Garcia,Finance,ACH,Office equipment,normal
+TXN-00217,V-001,Redwood Marketing,INV-505539,2026-01-01,812.06,J. Smith,Engineering,Wire,Technical consulting,normal
+TXN-00218,V-001,Metro Data Services,INV-998747,2026-04-15,1346.45,L. Johnson,Human Resources,Wire,Software subscription,normal
+TXN-00219,V-004,Pacific Equipment,INV-357827,2026-08-27,741.89,M. Garcia,Operations,Wire,Marketing services,normal
+TXN-00220,V-008,Greenfield Logistics,INV-273331,2026-04-15,2034.04,A. Chen,Operations,ACH,Software subscription,normal
+TXN-00221,V-002,Metro Data Services,INV-951310,2026-06-19,1691.89,S. Patel,Engineering,ACH,Office equipment,normal
+TXN-00222,V-004,Redwood Marketing,INV-238567,2026-03-03,2236.5,A. Chen,Operations,Wire,Data services,normal
+TXN-00223,V-006,Brightline Solutions,INV-123762,2026-07-08,2275.66,J. Smith,Operations,ACH,Office equipment,normal
+TXN-00224,V-002,Metro Data Services,INV-480519,2026-07-08,2421.04,S. Patel,Operations,Corporate Card,Technical consulting,normal
+TXN-00225,V-006,Greenfield Logistics,INV-460973,2026-05-28,1283.42,M. Garcia,Marketing,ACH,Technical consulting,normal
+TXN-00226,V-003,Brightline Solutions,INV-657701,2026-07-07,6494.71,S. Patel,Finance,ACH,Data services,normal
+TXN-00227,V-007,Northstar Consulting,INV-889960,2026-05-21,1905.27,M. Garcia,Operations,Wire,Data services,normal
+TXN-00228,V-005,Brightline Solutions,INV-939609,2026-04-02,487.55,L. Johnson,Human Resources,ACH,Professional services,normal
+TXN-00229,V-005,Blue Harbor Technology,INV-360674,2026-06-29,852.74,M. Garcia,Finance,ACH,Software subscription,normal
+TXN-00230,V-002,Summit Office Supply,INV-982738,2026-07-22,527.78,A. Chen,Marketing,ACH,Professional services,normal
+TXN-00231,V-004,Pacific Equipment,INV-669394,2026-07-23,1654.52,A. Chen,Marketing,ACH,Logistics support,normal
+TXN-00232,V-007,Metro Data Services,INV-162676,2026-02-20,1511.45,S. Patel,Human Resources,Wire,Software subscription,normal
+TXN-00233,V-001,Brightline Solutions,INV-944600,2026-06-15,1206.55,A. Chen,Operations,ACH,Office equipment,normal
+TXN-00234,V-007,Metro Data Services,INV-224197,2026-01-01,6045.7,J. Smith,Operations,ACH,Logistics support,normal
+TXN-00235,V-004,Metro Data Services,INV-629735,2026-05-19,2337.5,A. Chen,Engineering,ACH,Marketing services,normal
+TXN-00236,V-006,Summit Office Supply,INV-811663,2026-05-19,2622.71,J. Smith,Marketing,Corporate Card,Marketing services,normal
+TXN-00237,V-006,Northstar Consulting,INV-324494,2026-03-30,893.19,M. Garcia,Engineering,ACH,Professional services,normal
+TXN-00238,V-004,Northstar Consulting,INV-343568,2026-08-28,854.53,A. Chen,Finance,Corporate Card,Data services,normal
+TXN-00239,V-003,Summit Office Supply,INV-528558,2026-08-03,1675.59,M. Garcia,Finance,Corporate Card,Data services,normal
+TXN-00240,V-006,Northstar Consulting,INV-896363,2026-01-09,1830.7,L. Johnson,Human Resources,ACH,Office equipment,normal
+TXN-00241,V-002,Redwood Marketing,INV-301242,2026-02-20,489.51,A. Chen,Engineering,Wire,Logistics support,normal
+TXN-00242,V-005,Pacific Equipment,INV-697107,2026-02-19,1455.06,A. Chen,Finance,Wire,Technical consulting,normal
+TXN-00243,V-001,Brightline Solutions,INV-507332,2026-08-06,1651.02,J. Smith,Operations,ACH,Software subscription,normal
+TXN-00244,V-006,Greenfield Logistics,INV-200660,2026-05-06,1422.47,L. Johnson,Finance,ACH,Office equipment,normal
+TXN-00245,V-006,Brightline Solutions,INV-739788,2026-06-26,964.2,M. Garcia,Engineering,Wire,Office equipment,normal
+TXN-00246,V-001,Brightline Solutions,INV-849275,2026-07-16,1152.05,S. Patel,Engineering,Wire,Logistics support,normal
+TXN-00247,V-007,Pacific Equipment,INV-618070,2026-07-06,1458.32,A. Chen,Marketing,Wire,Professional services,normal
+TXN-00248,V-004,Greenfield Logistics,INV-258720,2026-01-22,1735.45,S. Patel,Marketing,Corporate Card,Technical consulting,normal
+TXN-00249,V-007,Summit Office Supply,INV-240152,2026-02-04,2423.86,A. Chen,Marketing,ACH,Logistics support,normal
+TXN-00250,V-001,Brightline Solutions,INV-481145,2026-04-07,3302.9,S. Patel,Marketing,Wire,Data services,normal
+TXN-00251,V-002,Blue Harbor Technology,INV-555776,2026-03-24,1351.1,A. Chen,Marketing,Corporate Card,Marketing services,normal
+TXN-00252,V-004,Greenfield Logistics,INV-596965,2026-07-01,1216.21,L. Johnson,Marketing,ACH,Technical consulting,normal
+TXN-00253,V-002,Northstar Consulting,INV-319290,2026-02-09,2174.33,J. Smith,Operations,ACH,Logistics support,normal
+TXN-00254,V-003,Pacific Equipment,INV-550689,2026-04-01,2433.41,A. Chen,Human Resources,ACH,Software subscription,normal
+TXN-00255,V-006,Metro Data Services,INV-365570,2026-02-26,1233.7,J. Smith,Engineering,Corporate Card,Professional services,normal
+TXN-00256,V-002,Northstar Consulting,INV-717545,2026-02-16,2734.64,A. Chen,Marketing,ACH,Marketing services,normal
+TXN-00257,V-006,Blue Harbor Technology,INV-816825,2026-02-11,3092.49,A. Chen,Human Resources,Wire,Software subscription,normal
+TXN-00258,V-001,Redwood Marketing,INV-687417,2026-02-17,3788.01,M. Garcia,Marketing,ACH,Professional services,normal
+TXN-00259,V-002,Redwood Marketing,INV-101122,2026-05-18,5197.37,J. Smith,Human Resources,ACH,Technical consulting,normal
+TXN-00260,V-005,Pacific Equipment,INV-992836,2026-04-09,931.53,J. Smith,Marketing,ACH,Data services,normal
+TXN-00261,V-007,Summit Office Supply,INV-121390,2026-04-16,1650.83,L. Johnson,Operations,ACH,Marketing services,normal
+TXN-00262,V-002,Brightline Solutions,INV-999478,2026-04-27,1648.02,A. Chen,Marketing,Corporate Card,Software subscription,normal
+TXN-00263,V-003,Greenfield Logistics,INV-128596,2026-06-30,1534.95,J. Smith,Engineering,ACH,Professional services,normal
+TXN-00264,V-008,Pacific Equipment,INV-564812,2026-07-29,1072.75,A. Chen,Marketing,Corporate Card,Professional services,normal
+TXN-00265,V-008,Blue Harbor Technology,INV-195373,2026-05-08,622.9,M. Garcia,Human Resources,ACH,Office equipment,normal
+TXN-00266,V-005,Northstar Consulting,INV-185679,2026-06-05,1737.57,J. Smith,Finance,Corporate Card,Professional services,normal
+TXN-00267,V-004,Northstar Consulting,INV-715055,2026-06-29,992.84,A. Chen,Operations,ACH,Office equipment,normal
+TXN-00268,V-003,Summit Office Supply,INV-755058,2026-06-17,1730.03,A. Chen,Finance,ACH,Office equipment,normal
+TXN-00269,V-005,Brightline Solutions,INV-206412,2026-02-03,976.4,L. Johnson,Human Resources,ACH,Data services,normal
+TXN-00270,V-005,Northstar Consulting,INV-978996,2026-08-27,800.49,A. Chen,Operations,ACH,Marketing services,normal
+TXN-00271,V-003,Summit Office Supply,INV-388414,2026-02-10,1905.11,S. Patel,Engineering,ACH,Office equipment,normal
+TXN-00272,V-001,Northstar Consulting,INV-386493,2026-04-10,1804.61,L. Johnson,Human Resources,Wire,Data services,normal
+TXN-00273,V-002,Brightline Solutions,INV-367279,2026-06-08,2384.0,M. Garcia,Operations,ACH,Professional services,normal
+TXN-00274,V-008,Metro Data Services,INV-515087,2026-04-08,6773.76,J. Smith,Finance,ACH,Office equipment,normal
+TXN-00275,V-004,Pacific Equipment,INV-260050,2026-03-02,1959.1,S. Patel,Marketing,ACH,Technical consulting,normal
+TXN-00276,V-004,Metro Data Services,INV-482298,2026-08-12,2242.4,L. Johnson,Marketing,ACH,Technical consulting,normal
+TXN-00277,V-004,Metro Data Services,INV-288983,2026-01-19,812.07,A. Chen,Human Resources,Wire,Data services,normal
+TXN-00278,V-007,Pacific Equipment,INV-146277,2026-03-02,708.76,L. Johnson,Human Resources,ACH,Technical consulting,normal
+TXN-00279,V-001,Northstar Consulting,INV-431862,2026-08-28,4577.18,L. Johnson,Operations,Wire,Data services,normal
+TXN-00280,V-001,Pacific Equipment,INV-705037,2026-06-26,897.61,A. Chen,Human Resources,Corporate Card,Professional services,normal
+TXN-00281,V-003,Metro Data Services,INV-786780,2026-01-22,830.01,A. Chen,Marketing,ACH,Technical consulting,normal
+TXN-00282,V-004,Metro Data Services,INV-418003,2026-07-02,1594.93,S. Patel,Engineering,ACH,Office equipment,normal
+TXN-00283,V-006,Greenfield Logistics,INV-391371,2026-08-24,1542.83,A. Chen,Marketing,ACH,Marketing services,normal
+TXN-00284,V-004,Pacific Equipment,INV-808716,2026-01-23,909.93,S. Patel,Marketing,ACH,Marketing services,normal
+TXN-00285,V-004,Greenfield Logistics,INV-713068,2026-04-10,1341.8,A. Chen,Marketing,ACH,Office equipment,normal
+TXN-00286,V-008,Northstar Consulting,INV-848907,2026-04-24,3637.65,S. Patel,Operations,Corporate Card,Logistics support,normal
+TXN-00287,V-002,Brightline Solutions,INV-915490,2026-02-02,968.84,J. Smith,Marketing,ACH,Data services,normal
+TXN-00288,V-005,Blue Harbor Technology,INV-839106,2026-02-18,661.24,A. Chen,Marketing,ACH,Office equipment,normal
+TXN-00289,V-005,Northstar Consulting,INV-942836,2026-02-12,3019.01,A. Chen,Marketing,Wire,Office equipment,normal
+TXN-00290,V-004,Redwood Marketing,INV-474998,2026-02-16,2252.94,A. Chen,Finance,ACH,Logistics support,normal
+TXN-00291,V-007,Blue Harbor Technology,INV-455204,2026-04-08,1092.98,M. Garcia,Human Resources,Wire,Software subscription,normal
+TXN-00292,V-003,Pacific Equipment,INV-389390,2026-04-23,584.99,A. Chen,Marketing,ACH,Professional services,normal
+TXN-00293,V-008,Greenfield Logistics,INV-311700,2026-02-27,1008.27,L. Johnson,Finance,ACH,Technical consulting,normal
+TXN-00294,V-003,Northstar Consulting,INV-773937,2026-03-12,1578.83,S. Patel,Operations,Corporate Card,Office equipment,normal
+TXN-00295,V-005,Brightline Solutions,INV-743005,2026-02-17,3490.1,J. Smith,Human Resources,Wire,Marketing services,normal
+TXN-00296,V-005,Redwood Marketing,INV-821249,2026-07-13,833.99,L. Johnson,Marketing,Corporate Card,Logistics support,normal
+TXN-00297,V-007,Summit Office Supply,INV-250651,2026-02-20,1548.53,S. Patel,Human Resources,ACH,Logistics support,normal
+TXN-00298,V-004,Metro Data Services,INV-542131,2026-08-10,2537.27,S. Patel,Engineering,Wire,Marketing services,normal
+TXN-00299,V-003,Redwood Marketing,INV-299762,2026-05-12,347.99,A. Chen,Engineering,ACH,Marketing services,normal
+TXN-00300,V-001,Northstar Consulting,INV-903727,2026-07-14,3203.38,S. Patel,Marketing,ACH,Logistics support,normal
+TXN-00301,V-003,Pacific Equipment,INV-340669,2026-06-04,758.55,M. Garcia,Finance,ACH,Technical consulting,normal
+TXN-00302,V-007,Greenfield Logistics,INV-229517,2026-03-06,2030.01,L. Johnson,Marketing,ACH,Professional services,normal
+TXN-00303,V-001,Metro Data Services,INV-612877,2026-05-27,1920.51,M. Garcia,Human Resources,ACH,Logistics support,normal
+TXN-00304,V-008,Brightline Solutions,INV-891161,2026-03-09,3310.92,S. Patel,Engineering,ACH,Software subscription,normal
+TXN-00305,V-005,Redwood Marketing,INV-924157,2026-01-29,2340.46,J. Smith,Engineering,Wire,Technical consulting,normal
+TXN-00306,V-002,Metro Data Services,INV-186485,2026-03-04,348.89,A. Chen,Human Resources,Wire,Professional services,normal
+TXN-00307,V-003,Summit Office Supply,INV-393303,2026-03-09,982.3,A. Chen,Marketing,Corporate Card,Software subscription,normal
+TXN-00308,V-005,Blue Harbor Technology,INV-238172,2026-02-03,1789.75,L. Johnson,Marketing,ACH,Software subscription,normal
+TXN-00309,V-003,Greenfield Logistics,INV-377078,2026-01-07,1441.25,S. Patel,Human Resources,Corporate Card,Marketing services,normal
+TXN-00310,V-001,Pacific Equipment,INV-580455,2026-08-18,2231.54,J. Smith,Operations,ACH,Professional services,normal
+TXN-00311,V-006,Redwood Marketing,INV-352514,2026-05-05,2732.82,S. Patel,Marketing,ACH,Professional services,normal
+TXN-00312,V-006,Summit Office Supply,INV-160766,2026-04-08,2429.63,A. Chen,Marketing,Wire,Data services,normal
+TXN-00313,V-001,Pacific Equipment,INV-559026,2026-08-13,1423.28,A. Chen,Human Resources,ACH,Technical consulting,normal
+TXN-00314,V-003,Pacific Equipment,INV-147526,2026-02-24,492.69,M. Garcia,Finance,ACH,Data services,normal
+TXN-00315,V-002,Brightline Solutions,INV-304026,2026-04-08,1216.75,S. Patel,Finance,ACH,Data services,normal
+TXN-00316,V-006,Summit Office Supply,INV-100466,2026-07-24,2144.45,L. Johnson,Engineering,ACH,Marketing services,normal
+TXN-00317,V-006,Metro Data Services,INV-178139,2026-06-03,805.3,S. Patel,Finance,Wire,Data services,normal
+TXN-00318,V-006,Redwood Marketing,INV-492684,2026-04-08,2465.94,J. Smith,Finance,ACH,Office equipment,normal
+TXN-00319,V-008,Greenfield Logistics,INV-865641,2026-03-04,2952.64,L. Johnson,Human Resources,ACH,Marketing services,normal
+TXN-00320,V-007,Greenfield Logistics,INV-797160,2026-01-09,1776.61,M. Garcia,Operations,ACH,Professional services,normal
+TXN-00321,V-003,Northstar Consulting,INV-188947,2026-01-21,223.31,L. Johnson,Engineering,ACH,Software subscription,normal
+TXN-00322,V-001,Summit Office Supply,INV-131354,2026-02-10,712.83,A. Chen,Operations,Wire,Marketing services,normal
+TXN-00323,V-005,Redwood Marketing,INV-404278,2026-07-10,5574.86,A. Chen,Finance,Corporate Card,Office equipment,normal
+TXN-00324,V-008,Brightline Solutions,INV-687031,2026-06-04,1146.82,A. Chen,Finance,Wire,Professional services,normal
+TXN-00325,V-008,Pacific Equipment,INV-772058,2026-04-15,450.48,L. Johnson,Engineering,Corporate Card,Professional services,normal
+TXN-00326,V-002,Blue Harbor Technology,INV-840813,2026-07-09,3651.56,A. Chen,Finance,ACH,Technical consulting,normal
+TXN-00327,V-002,Metro Data Services,INV-407983,2026-02-09,1650.25,L. Johnson,Operations,Wire,Office equipment,normal
+TXN-00328,V-001,Northstar Consulting,INV-251200,2026-02-20,3355.01,S. Patel,Marketing,ACH,Professional services,normal
+TXN-00329,V-002,Metro Data Services,INV-123713,2026-04-06,1958.67,A. Chen,Marketing,ACH,Logistics support,normal
+TXN-00330,V-005,Summit Office Supply,INV-232177,2026-08-11,2204.08,L. Johnson,Human Resources,Wire,Data services,normal
+TXN-00331,V-005,Greenfield Logistics,INV-158645,2026-05-29,2071.35,A. Chen,Engineering,ACH,Data services,normal
+TXN-00332,V-003,Metro Data Services,INV-874720,2026-07-27,2574.39,A. Chen,Engineering,Corporate Card,Technical consulting,normal
+TXN-00333,V-003,Greenfield Logistics,INV-341571,2026-03-02,7189.16,M. Garcia,Marketing,Wire,Office equipment,normal
+TXN-00334,V-007,Pacific Equipment,INV-840811,2026-07-24,3075.29,J. Smith,Marketing,Corporate Card,Marketing services,normal
+TXN-00335,V-004,Redwood Marketing,INV-597842,2026-01-19,585.68,J. Smith,Engineering,ACH,Logistics support,normal
+TXN-00336,V-007,Brightline Solutions,INV-585047,2026-02-25,2187.1,A. Chen,Finance,ACH,Marketing services,normal
+TXN-00337,V-008,Metro Data Services,INV-509313,2026-05-07,3435.65,S. Patel,Marketing,Wire,Software subscription,normal
+TXN-00338,V-003,Summit Office Supply,INV-837279,2026-01-13,3575.13,A. Chen,Engineering,ACH,Marketing services,normal
+TXN-00339,V-002,Pacific Equipment,INV-139104,2026-07-28,1239.8,J. Smith,Engineering,ACH,Logistics support,normal
+TXN-00340,V-008,Greenfield Logistics,INV-183480,2026-07-30,3488.45,M. Garcia,Finance,Wire,Professional services,normal
+TXN-00341,V-006,Redwood Marketing,INV-481048,2026-05-12,2990.01,M. Garcia,Engineering,Corporate Card,Software subscription,normal
+TXN-00342,V-003,Blue Harbor Technology,INV-455032,2026-03-16,8709.21,S. Patel,Operations,Wire,Marketing services,normal
+TXN-00343,V-005,Northstar Consulting,INV-591036,2026-01-26,1004.75,J. Smith,Marketing,ACH,Professional services,normal
+TXN-00344,V-005,Redwood Marketing,INV-764017,2026-06-01,1176.37,S. Patel,Engineering,ACH,Technical consulting,normal
+TXN-00345,V-008,Blue Harbor Technology,INV-628790,2026-05-12,1340.8,S. Patel,Human Resources,ACH,Professional services,normal
+TXN-00346,V-003,Brightline Solutions,INV-331706,2026-07-03,1189.58,J. Smith,Operations,ACH,Technical consulting,normal
+TXN-00347,V-008,Pacific Equipment,INV-394562,2026-05-27,917.35,J. Smith,Marketing,ACH,Marketing services,normal
+TXN-00348,V-008,Metro Data Services,INV-777095,2026-02-02,271.58,M. Garcia,Marketing,ACH,Data services,normal
+TXN-00349,V-002,Metro Data Services,INV-281320,2026-01-30,1233.3,M. Garcia,Operations,ACH,Software subscription,normal
+TXN-00350,V-002,Redwood Marketing,INV-553760,2026-07-09,2079.92,A. Chen,Finance,ACH,Office equipment,normal
+TXN-00351,V-005,Northstar Consulting,INV-584911,2026-02-09,1187.26,M. Garcia,Operations,ACH,Logistics support,normal
+TXN-00352,V-001,Greenfield Logistics,INV-775238,2026-08-17,5756.0,A. Chen,Finance,ACH,Logistics support,normal
+TXN-00353,V-003,Greenfield Logistics,INV-742918,2026-01-27,1650.27,M. Garcia,Finance,ACH,Software subscription,normal
+TXN-00354,V-004,Brightline Solutions,INV-518211,2026-06-26,3786.39,L. Johnson,Operations,Wire,Data services,normal
+TXN-00355,V-008,Blue Harbor Technology,INV-378247,2026-08-25,1938.99,M. Garcia,Engineering,ACH,Technical consulting,normal
+TXN-00356,V-008,Greenfield Logistics,INV-431113,2026-04-17,2799.41,S. Patel,Human Resources,Corporate Card,Software subscription,normal
+TXN-00357,V-002,Summit Office Supply,INV-470430,2026-01-14,1961.58,J. Smith,Finance,ACH,Marketing services,normal
+TXN-00358,V-008,Blue Harbor Technology,INV-297270,2026-07-31,3982.68,L. Johnson,Marketing,ACH,Software subscription,normal
+TXN-00359,V-001,Northstar Consulting,INV-662866,2026-02-16,1696.56,L. Johnson,Operations,ACH,Logistics support,normal
+TXN-00360,V-006,Summit Office Supply,INV-287541,2026-05-08,2258.55,L. Johnson,Operations,ACH,Software subscription,normal
+TXN-00361,V-007,Northstar Consulting,INV-683808,2026-08-27,2075.83,S. Patel,Human Resources,ACH,Office equipment,normal
+TXN-00362,V-008,Northstar Consulting,INV-776340,2026-06-30,1356.43,S. Patel,Engineering,Wire,Data services,normal
+TXN-00363,V-002,Summit Office Supply,INV-965653,2026-01-13,2128.64,M. Garcia,Operations,Corporate Card,Office equipment,normal
+TXN-00364,V-008,Blue Harbor Technology,INV-207019,2026-07-17,6990.81,L. Johnson,Finance,ACH,Software subscription,normal
+TXN-00365,V-001,Redwood Marketing,INV-783757,2026-02-09,1372.3,L. Johnson,Finance,ACH,Marketing services,normal
+TXN-00366,V-005,Northstar Consulting,INV-177384,2026-07-01,2148.77,M. Garcia,Finance,Wire,Professional services,normal
+TXN-00367,V-004,Summit Office Supply,INV-403522,2026-06-01,3705.44,A. Chen,Engineering,ACH,Technical consulting,normal
+TXN-00368,V-003,Greenfield Logistics,INV-258662,2026-03-11,3432.91,A. Chen,Marketing,ACH,Professional services,normal
+TXN-00369,V-001,Brightline Solutions,INV-246055,2026-04-14,1648.49,J. Smith,Marketing,Wire,Office equipment,normal
+TXN-00370,V-007,Metro Data Services,INV-257811,2026-01-29,347.51,A. Chen,Engineering,ACH,Technical consulting,normal
+TXN-00371,V-003,Brightline Solutions,INV-139544,2026-08-27,2288.97,J. Smith,Human Resources,Wire,Software subscription,normal
+TXN-00372,V-006,Summit Office Supply,INV-840796,2026-02-27,386.58,A. Chen,Operations,ACH,Professional services,normal
+TXN-00373,V-004,Greenfield Logistics,INV-155015,2026-03-17,4253.34,L. Johnson,Human Resources,ACH,Logistics support,normal
+TXN-00374,V-003,Greenfield Logistics,INV-458655,2026-05-01,1826.5,A. Chen,Engineering,ACH,Professional services,normal
+TXN-00375,V-008,Brightline Solutions,INV-729245,2026-06-12,3133.13,S. Patel,Engineering,Wire,Technical consulting,normal
+TXN-00376,V-001,Brightline Solutions,INV-991348,2026-05-04,910.17,J. Smith,Human Resources,ACH,Data services,normal
+TXN-00377,V-006,Brightline Solutions,INV-868334,2026-05-04,596.38,A. Chen,Finance,Wire,Technical consulting,normal
+TXN-00378,V-006,Pacific Equipment,INV-223489,2026-05-21,1938.15,S. Patel,Engineering,Wire,Software subscription,normal
+TXN-00379,V-004,Redwood Marketing,INV-988963,2026-07-28,1600.64,L. Johnson,Human Resources,Wire,Professional services,normal
+TXN-00380,V-003,Redwood Marketing,INV-688185,2026-04-07,1188.56,S. Patel,Human Resources,ACH,Technical consulting,normal
+TXN-00381,V-001,Brightline Solutions,INV-261611,2026-07-21,1728.54,L. Johnson,Operations,ACH,Logistics support,normal
+TXN-00382,V-008,Summit Office Supply,INV-503856,2026-07-10,9885.59,M. Garcia,Engineering,ACH,Technical consulting,normal
+TXN-00383,V-008,Summit Office Supply,INV-926093,2026-08-21,2814.22,S. Patel,Human Resources,ACH,Office equipment,normal
+TXN-00384,V-002,Brightline Solutions,INV-453625,2026-08-10,3236.26,A. Chen,Human Resources,Corporate Card,Office equipment,normal
+TXN-00385,V-001,Greenfield Logistics,INV-265273,2026-07-14,2831.49,L. Johnson,Human Resources,ACH,Marketing services,normal
+TXN-00386,V-001,Blue Harbor Technology,INV-887574,2026-03-02,4279.75,S. Patel,Human Resources,Corporate Card,Data services,normal
+TXN-00387,V-001,Redwood Marketing,INV-957677,2026-07-07,1445.85,J. Smith,Marketing,ACH,Software subscription,normal
+TXN-00388,V-007,Summit Office Supply,INV-978035,2026-06-29,430.27,J. Smith,Engineering,ACH,Office equipment,normal
+TXN-00389,V-008,Brightline Solutions,INV-960138,2026-03-12,1447.25,S. Patel,Operations,ACH,Marketing services,normal
+TXN-00390,V-002,Brightline Solutions,INV-885572,2026-06-15,2772.84,A. Chen,Human Resources,Wire,Professional services,normal
+TXN-00391,V-006,Summit Office Supply,INV-509040,2026-03-03,870.99,L. Johnson,Human Resources,ACH,Office equipment,normal
+TXN-00392,V-002,Redwood Marketing,INV-273070,2026-05-07,1458.79,J. Smith,Human Resources,ACH,Office equipment,normal
+TXN-00393,V-003,Brightline Solutions,INV-655440,2026-07-13,1043.51,A. Chen,Operations,Wire,Professional services,normal
+TXN-00394,V-005,Metro Data Services,INV-298717,2026-02-16,4342.99,J. Smith,Operations,ACH,Professional services,normal
+TXN-00395,V-006,Blue Harbor Technology,INV-525839,2026-03-24,2662.84,L. Johnson,Finance,ACH,Data services,normal
+TXN-00396,V-007,Redwood Marketing,INV-690465,2026-07-13,2498.64,J. Smith,Engineering,ACH,Professional services,normal
+TXN-00397,V-001,Redwood Marketing,INV-951920,2026-04-21,2450.48,M. Garcia,Operations,ACH,Office equipment,normal
+TXN-00398,V-002,Metro Data Services,INV-360174,2026-08-21,1596.85,L. Johnson,Operations,ACH,Data services,normal
+TXN-00399,V-003,Northstar Consulting,INV-326722,2026-01-02,1860.15,A. Chen,Engineering,ACH,Technical consulting,normal
+TXN-00400,V-003,Summit Office Supply,INV-761251,2026-06-24,757.2,S. Patel,Human Resources,ACH,Professional services,normal
+TXN-00401,V-008,Pacific Equipment,INV-105813,2026-07-16,394.97,J. Smith,Finance,ACH,Data services,normal
+TXN-00402,V-007,Blue Harbor Technology,INV-609778,2026-08-11,1803.62,S. Patel,Operations,ACH,Professional services,normal
+TXN-00403,V-003,Summit Office Supply,INV-771323,2026-02-09,2019.48,A. Chen,Engineering,ACH,Data services,normal
+TXN-00404,V-008,Summit Office Supply,INV-595817,2026-08-27,3590.41,A. Chen,Human Resources,ACH,Data services,normal
+TXN-00405,V-004,Blue Harbor Technology,INV-445559,2026-04-06,4543.12,S. Patel,Engineering,ACH,Logistics support,normal
+TXN-00406,V-005,Blue Harbor Technology,INV-845691,2026-03-26,4539.17,L. Johnson,Engineering,ACH,Data services,normal
+TXN-00407,V-004,Summit Office Supply,INV-433930,2026-03-27,855.16,L. Johnson,Human Resources,ACH,Technical consulting,normal
+TXN-00408,V-002,Pacific Equipment,INV-739478,2026-06-04,1301.18,S. Patel,Human Resources,ACH,Professional services,normal
+TXN-00409,V-008,Northstar Consulting,INV-517727,2026-06-10,2235.49,M. Garcia,Engineering,Corporate Card,Professional services,normal
+TXN-00410,V-001,Summit Office Supply,INV-123919,2026-04-24,8482.31,A. Chen,Marketing,Wire,Professional services,normal
+TXN-00411,V-002,Northstar Consulting,INV-577464,2026-01-19,4281.52,J. Smith,Operations,ACH,Office equipment,normal
+TXN-00412,V-002,Redwood Marketing,INV-144513,2026-08-27,3386.69,S. Patel,Engineering,ACH,Software subscription,normal
+TXN-00413,V-003,Summit Office Supply,INV-937861,2026-02-24,1271.48,J. Smith,Finance,ACH,Professional services,normal
+TXN-00414,V-002,Pacific Equipment,INV-641402,2026-01-23,921.42,M. Garcia,Engineering,Wire,Software subscription,normal
+TXN-00415,V-001,Redwood Marketing,INV-434828,2026-05-26,2732.0,A. Chen,Operations,ACH,Technical consulting,normal
+TXN-00416,V-006,Pacific Equipment,INV-537572,2026-04-10,799.97,M. Garcia,Human Resources,ACH,Logistics support,normal
+TXN-00417,V-008,Metro Data Services,INV-657261,2026-05-29,1401.1,J. Smith,Marketing,ACH,Professional services,normal
+TXN-00418,V-001,Greenfield Logistics,INV-334165,2026-07-31,1518.37,A. Chen,Human Resources,ACH,Technical consulting,normal
+TXN-00419,V-003,Pacific Equipment,INV-359554,2026-01-23,4607.28,A. Chen,Operations,ACH,Software subscription,normal
+TXN-00420,V-005,Greenfield Logistics,INV-476790,2026-03-11,1299.13,M. Garcia,Operations,Corporate Card,Office equipment,normal
+TXN-00421,V-008,Brightline Solutions,INV-332714,2026-05-06,335.12,J. Smith,Engineering,Corporate Card,Office equipment,normal
+TXN-00422,V-006,Brightline Solutions,INV-782118,2026-07-10,2270.8,A. Chen,Operations,ACH,Office equipment,normal
+TXN-00423,V-007,Redwood Marketing,INV-193433,2026-05-26,1038.61,M. Garcia,Human Resources,ACH,Logistics support,normal
+TXN-00424,V-005,Metro Data Services,INV-843949,2026-04-03,1681.95,A. Chen,Finance,ACH,Marketing services,normal
+TXN-00425,V-004,Summit Office Supply,INV-413674,2026-05-28,1546.33,A. Chen,Engineering,ACH,Marketing services,normal
+TXN-00426,V-002,Pacific Equipment,INV-605100,2026-08-26,1369.35,A. Chen,Human Resources,ACH,Marketing services,normal
+TXN-00427,V-007,Metro Data Services,INV-241979,2026-04-28,2734.55,M. Garcia,Marketing,ACH,Logistics support,normal
+TXN-00428,V-007,Brightline Solutions,INV-446832,2026-08-03,604.04,L. Johnson,Marketing,Wire,Software subscription,normal
+TXN-00429,V-001,Summit Office Supply,INV-779136,2026-07-08,1169.04,J. Smith,Operations,Corporate Card,Office equipment,normal
+TXN-00430,V-006,Pacific Equipment,INV-343626,2026-03-16,2551.98,J. Smith,Engineering,Wire,Professional services,normal
+TXN-00431,V-001,Greenfield Logistics,INV-219048,2026-03-03,1097.56,J. Smith,Human Resources,Wire,Marketing services,normal
+TXN-00432,V-006,Blue Harbor Technology,INV-569726,2026-07-07,574.95,J. Smith,Engineering,ACH,Data services,normal
+TXN-00433,V-007,Blue Harbor Technology,INV-246241,2026-02-19,2526.43,S. Patel,Engineering,ACH,Marketing services,normal
+TXN-00434,V-002,Redwood Marketing,INV-383274,2026-03-24,3394.84,J. Smith,Operations,ACH,Data services,normal
+TXN-00435,V-004,Summit Office Supply,INV-505414,2026-02-26,1588.83,S. Patel,Engineering,ACH,Software subscription,normal
+TXN-00436,V-001,Northstar Consulting,INV-607685,2026-05-27,457.35,L. Johnson,Marketing,ACH,Professional services,normal
+TXN-00437,V-005,Greenfield Logistics,INV-675438,2026-03-12,2588.62,L. Johnson,Operations,Wire,Technical consulting,normal
+TXN-00438,V-008,Metro Data Services,INV-708986,2026-06-09,556.17,M. Garcia,Finance,ACH,Office equipment,normal
+TXN-00439,V-001,Summit Office Supply,INV-859857,2026-08-14,1999.63,S. Patel,Finance,ACH,Professional services,normal
+TXN-00440,V-004,Brightline Solutions,INV-159471,2026-07-21,918.87,L. Johnson,Human Resources,ACH,Office equipment,normal
+TXN-00441,V-008,Pacific Equipment,INV-426090,2026-08-18,769.78,S. Patel,Human Resources,Corporate Card,Technical consulting,normal
+TXN-00442,V-003,Redwood Marketing,INV-100960,2026-01-07,1227.53,J. Smith,Operations,ACH,Software subscription,normal
+TXN-00443,V-002,Brightline Solutions,INV-108498,2026-04-21,1452.23,A. Chen,Finance,ACH,Technical consulting,normal
+TXN-00444,V-004,Greenfield Logistics,INV-291049,2026-02-24,1076.28,A. Chen,Finance,ACH,Data services,normal
+TXN-00445,V-005,Blue Harbor Technology,INV-638328,2026-08-11,2398.64,L. Johnson,Finance,Wire,Technical consulting,normal
+TXN-00446,V-006,Northstar Consulting,INV-905059,2026-06-23,1224.21,M. Garcia,Engineering,Corporate Card,Marketing services,normal
+TXN-00447,V-003,Brightline Solutions,INV-796186,2026-03-19,3093.7,J. Smith,Marketing,ACH,Professional services,normal
+TXN-00448,V-008,Brightline Solutions,INV-681661,2026-05-18,1964.05,J. Smith,Marketing,Corporate Card,Data services,normal
+TXN-00449,V-005,Metro Data Services,INV-800346,2026-05-27,1039.6,J. Smith,Human Resources,ACH,Office equipment,normal
+TXN-00450,V-003,Northstar Consulting,INV-254764,2026-04-30,931.82,L. Johnson,Human Resources,ACH,Software subscription,normal
+TXN-00451,V-008,Summit Office Supply,INV-855850,2026-04-27,560.67,S. Patel,Engineering,ACH,Data services,normal
+TXN-00452,V-008,Northstar Consulting,INV-901236,2026-01-14,1976.29,L. Johnson,Marketing,ACH,Professional services,normal
+TXN-00453,V-004,Northstar Consulting,INV-185548,2026-04-21,1299.22,J. Smith,Operations,Wire,Marketing services,normal
+TXN-00454,V-001,Blue Harbor Technology,INV-522959,2026-03-26,350.05,M. Garcia,Marketing,ACH,Logistics support,normal
+TXN-00455,V-005,Redwood Marketing,INV-847032,2026-07-17,1154.92,A. Chen,Human Resources,ACH,Professional services,normal
+TXN-00456,V-005,Northstar Consulting,INV-528482,2026-07-29,910.8,L. Johnson,Finance,Wire,Data services,normal
+TXN-00457,V-002,Brightline Solutions,INV-856424,2026-07-01,4555.95,M. Garcia,Engineering,Corporate Card,Marketing services,normal
+TXN-00458,V-006,Greenfield Logistics,INV-941986,2026-01-08,540.88,M. Garcia,Operations,ACH,Professional services,normal
+TXN-00459,V-007,Summit Office Supply,INV-527197,2026-07-23,641.06,M. Garcia,Engineering,ACH,Office equipment,normal
+TXN-00460,V-001,Redwood Marketing,INV-153537,2026-04-07,3366.0,J. Smith,Operations,Wire,Software subscription,normal
+TXN-00461,V-006,Pacific Equipment,INV-406047,2026-04-13,3951.68,L. Johnson,Finance,ACH,Professional services,normal
+TXN-00462,V-002,Summit Office Supply,INV-293660,2026-08-18,1008.04,M. Garcia,Engineering,Corporate Card,Logistics support,normal
+TXN-00463,V-006,Northstar Consulting,INV-526703,2026-07-30,1084.79,S. Patel,Engineering,ACH,Data services,normal
+TXN-00464,V-004,Northstar Consulting,INV-627193,2026-01-13,2441.95,A. Chen,Operations,Wire,Logistics support,normal
+TXN-00465,V-001,Pacific Equipment,INV-517508,2026-03-30,360.46,J. Smith,Marketing,ACH,Marketing services,normal
+TXN-00466,V-008,Northstar Consulting,INV-275937,2026-07-01,487.96,L. Johnson,Marketing,ACH,Technical consulting,normal
+TXN-00467,V-002,Metro Data Services,INV-371048,2026-05-12,1363.11,A. Chen,Operations,ACH,Technical consulting,normal
+TXN-00468,V-005,Greenfield Logistics,INV-711573,2026-03-04,4480.23,A. Chen,Marketing,ACH,Marketing services,normal
+TXN-00469,V-002,Pacific Equipment,INV-124284,2026-05-07,1232.47,L. Johnson,Marketing,Corporate Card,Office equipment,normal
+TXN-00470,V-008,Northstar Consulting,INV-292682,2026-07-29,1746.92,J. Smith,Marketing,Corporate Card,Office equipment,normal
+TXN-00471,V-006,Brightline Solutions,INV-903106,2026-02-24,3418.52,J. Smith,Finance,ACH,Logistics support,normal
+TXN-00472,V-007,Metro Data Services,INV-189241,2026-07-01,6434.79,M. Garcia,Human Resources,ACH,Office equipment,normal
+TXN-00473,V-004,Greenfield Logistics,INV-473270,2026-06-29,1124.45,A. Chen,Marketing,ACH,Data services,normal
+TXN-00474,V-004,Blue Harbor Technology,INV-286286,2026-08-04,1618.18,A. Chen,Finance,ACH,Software subscription,normal
+TXN-00475,V-006,Brightline Solutions,INV-194185,2026-03-13,5347.24,A. Chen,Finance,ACH,Technical consulting,normal
+TXN-00476,V-007,Summit Office Supply,INV-480460,2026-02-23,608.24,A. Chen,Human Resources,Corporate Card,Marketing services,normal
+TXN-00477,V-007,Greenfield Logistics,INV-569297,2026-05-13,3190.48,A. Chen,Operations,Wire,Office equipment,normal
+TXN-00478,V-001,Greenfield Logistics,INV-258524,2026-05-08,843.95,S. Patel,Marketing,ACH,Marketing services,normal
+TXN-00479,V-006,Blue Harbor Technology,INV-170014,2026-04-09,1748.66,J. Smith,Operations,ACH,Office equipment,normal
+TXN-00480,V-001,Greenfield Logistics,INV-221222,2026-07-08,1397.3,A. Chen,Finance,ACH,Software subscription,normal
+TXN-00481,V-003,Blue Harbor Technology,INV-686389,2026-07-14,877.69,A. Chen,Marketing,ACH,Technical consulting,normal
+TXN-00482,V-007,Northstar Consulting,INV-874252,2026-03-02,863.49,M. Garcia,Marketing,ACH,Technical consulting,normal
+TXN-00483,V-003,Summit Office Supply,INV-262261,2026-07-13,1957.98,L. Johnson,Human Resources,ACH,Logistics support,normal
+TXN-00484,V-007,Northstar Consulting,INV-388357,2026-02-25,3124.72,J. Smith,Finance,ACH,Office equipment,normal
+TXN-00485,V-004,Greenfield Logistics,INV-409433,2026-04-09,1503.68,A. Chen,Operations,ACH,Software subscription,normal
+TXN-00486,V-002,Pacific Equipment,INV-424682,2026-01-07,1712.27,J. Smith,Engineering,Wire,Professional services,normal
+TXN-00487,V-003,Blue Harbor Technology,INV-319870,2026-03-24,2371.46,M. Garcia,Human Resources,ACH,Logistics support,normal
+TXN-00488,V-005,Northstar Consulting,INV-149743,2026-08-20,869.96,A. Chen,Operations,ACH,Office equipment,normal
+TXN-00489,V-007,Northstar Consulting,INV-572639,2026-04-17,2645.99,L. Johnson,Marketing,ACH,Technical consulting,normal
+TXN-00490,V-005,Redwood Marketing,INV-421632,2026-06-22,2786.59,S. Patel,Marketing,Corporate Card,Technical consulting,normal
+TXN-00491,V-008,Summit Office Supply,INV-408031,2026-01-27,8887.11,J. Smith,Marketing,ACH,Professional services,normal
+TXN-00492,V-007,Greenfield Logistics,INV-338326,2026-06-03,1281.17,L. Johnson,Engineering,ACH,Technical consulting,normal
+TXN-00493,V-007,Northstar Consulting,INV-936404,2026-04-01,1214.69,J. Smith,Marketing,ACH,Professional services,normal
+TXN-00494,V-005,Summit Office Supply,INV-649435,2026-06-30,2696.82,A. Chen,Engineering,ACH,Data services,normal
+TXN-00495,V-003,Greenfield Logistics,INV-476822,2026-08-13,2786.15,L. Johnson,Engineering,ACH,Data services,normal
+TXN-00496,V-004,Greenfield Logistics,INV-284851,2026-05-08,1155.39,L. Johnson,Human Resources,Wire,Technical consulting,normal
+TXN-00497,V-001,Redwood Marketing,INV-821010,2026-01-26,1258.84,J. Smith,Marketing,ACH,Marketing services,normal
+TXN-00498,V-003,Pacific Equipment,INV-899528,2026-04-27,2325.6,M. Garcia,Human Resources,ACH,Technical consulting,normal
+TXN-00499,V-008,Greenfield Logistics,INV-129086,2026-01-30,955.34,A. Chen,Operations,ACH,Marketing services,normal
+TXN-00500,V-004,Pacific Equipment,INV-936699,2026-04-20,1252.82,S. Patel,Engineering,Wire,Logistics support,normal
+TXN-00501,V-001,Redwood Marketing,INV-729477,2026-01-15,1734.09,S. Patel,Engineering,Corporate Card,Logistics support,normal
+TXN-00502,V-006,Summit Office Supply,INV-189847,2026-06-04,3125.53,S. Patel,Human Resources,Wire,Technical consulting,normal
+TXN-00503,V-008,Blue Harbor Technology,INV-777840,2026-03-17,1104.35,M. Garcia,Operations,ACH,Office equipment,normal
+TXN-00504,V-007,Summit Office Supply,INV-196662,2026-02-18,493.96,S. Patel,Engineering,Wire,Office equipment,normal
+TXN-00505,V-003,Redwood Marketing,INV-145775,2026-01-05,470.7,M. Garcia,Marketing,Wire,Technical consulting,normal
+TXN-00506,V-004,Blue Harbor Technology,INV-203793,2026-08-04,721.54,L. Johnson,Operations,ACH,Logistics support,normal
+TXN-00507,V-005,Brightline Solutions,INV-513848,2026-07-22,696.76,A. Chen,Operations,ACH,Technical consulting,normal
+TXN-00508,V-002,Greenfield Logistics,INV-657611,2026-07-16,1479.56,M. Garcia,Engineering,Wire,Marketing services,normal
+TXN-00509,V-003,Pacific Equipment,INV-466591,2026-01-15,755.39,M. Garcia,Engineering,ACH,Technical consulting,normal
+TXN-00510,V-002,Metro Data Services,INV-209771,2026-03-26,1036.09,M. Garcia,Finance,Wire,Logistics support,normal
+TXN-00511,V-008,Summit Office Supply,INV-279251,2026-08-25,989.15,A. Chen,Human Resources,ACH,Logistics support,normal
+TXN-00512,V-006,Blue Harbor Technology,INV-867143,2026-05-21,1228.65,J. Smith,Engineering,ACH,Software subscription,normal
+TXN-00513,V-007,Metro Data Services,INV-966360,2026-02-02,3864.66,L. Johnson,Finance,ACH,Data services,normal
+TXN-00514,V-007,Summit Office Supply,INV-778843,2026-02-04,2515.6,A. Chen,Human Resources,Wire,Logistics support,normal
+TXN-00515,V-008,Blue Harbor Technology,INV-193072,2026-03-05,1653.23,S. Patel,Engineering,Corporate Card,Logistics support,normal
+TXN-00516,V-001,Brightline Solutions,INV-837827,2026-08-25,1212.37,S. Patel,Finance,ACH,Technical consulting,normal
+TXN-00517,V-008,Greenfield Logistics,INV-722789,2026-02-11,1234.47,M. Garcia,Operations,ACH,Office equipment,normal
+TXN-00518,V-001,Northstar Consulting,INV-573453,2026-08-07,2024.41,A. Chen,Human Resources,ACH,Office equipment,normal
+TXN-00519,V-004,Greenfield Logistics,INV-228914,2026-06-15,2391.58,A. Chen,Marketing,ACH,Technical consulting,normal
+TXN-00520,V-005,Greenfield Logistics,INV-997008,2026-08-12,906.91,J. Smith,Human Resources,Corporate Card,Technical consulting,normal
+TXN-00521,V-003,Pacific Equipment,INV-498345,2026-07-20,1675.24,A. Chen,Operations,ACH,Software subscription,normal
+TXN-00522,V-002,Metro Data Services,INV-139757,2026-03-23,436.79,A. Chen,Marketing,ACH,Office equipment,normal
+TXN-00523,V-002,Blue Harbor Technology,INV-288971,2026-07-21,1877.35,A. Chen,Marketing,ACH,Technical consulting,normal
+TXN-00524,V-007,Blue Harbor Technology,INV-461138,2026-02-11,2684.9,A. Chen,Operations,Corporate Card,Software subscription,normal
+TXN-00525,V-003,Redwood Marketing,INV-156094,2026-03-12,1363.7,L. Johnson,Engineering,ACH,Logistics support,normal
+TXN-00526,V-003,Northstar Consulting,INV-391542,2026-02-20,5328.06,S. Patel,Human Resources,Wire,Professional services,normal
+TXN-00527,V-008,Summit Office Supply,INV-521562,2026-02-03,922.6,A. Chen,Finance,ACH,Software subscription,normal
+TXN-00528,V-002,Blue Harbor Technology,INV-953780,2026-01-22,1884.35,S. Patel,Human Resources,ACH,Logistics support,normal
+TXN-00529,V-008,Northstar Consulting,INV-177737,2026-02-16,1598.33,A. Chen,Operations,Wire,Marketing services,normal
+TXN-00530,V-008,Brightline Solutions,INV-619174,2026-01-29,1532.73,M. Garcia,Finance,ACH,Data services,normal
+TXN-00531,V-005,Northstar Consulting,INV-924184,2026-04-02,1518.82,A. Chen,Human Resources,Wire,Logistics support,normal
+TXN-00532,V-002,Northstar Consulting,INV-825571,2026-01-19,1753.94,A. Chen,Marketing,ACH,Office equipment,normal
+TXN-00533,V-002,Brightline Solutions,INV-932446,2026-01-15,2838.9,A. Chen,Engineering,Wire,Data services,normal
+TXN-00534,V-003,Blue Harbor Technology,INV-253306,2026-08-28,4005.92,M. Garcia,Engineering,Wire,Marketing services,normal
+TXN-00535,V-005,Pacific Equipment,INV-821208,2026-01-22,1633.59,M. Garcia,Finance,Wire,Logistics support,normal
+TXN-00536,V-002,Northstar Consulting,INV-980769,2026-01-19,2779.3,J. Smith,Marketing,ACH,Office equipment,normal
+TXN-00537,V-004,Blue Harbor Technology,INV-393429,2026-01-08,1036.76,S. Patel,Engineering,Wire,Marketing services,normal
+TXN-00538,V-001,Northstar Consulting,INV-548775,2026-02-02,2691.55,S. Patel,Marketing,Corporate Card,Data services,normal
+TXN-00539,V-005,Metro Data Services,INV-577756,2026-05-08,996.95,S. Patel,Finance,ACH,Data services,normal
+TXN-00540,V-001,Redwood Marketing,INV-544304,2026-07-21,3324.02,M. Garcia,Finance,ACH,Technical consulting,normal
+TXN-00541,V-006,Greenfield Logistics,INV-360803,2026-06-29,6883.73,M. Garcia,Human Resources,Wire,Office equipment,normal
+TXN-00542,V-001,Blue Harbor Technology,INV-973795,2026-05-21,1511.18,M. Garcia,Finance,ACH,Marketing services,normal
+TXN-00543,V-002,Northstar Consulting,INV-960846,2026-01-21,393.41,J. Smith,Finance,Wire,Technical consulting,normal
+TXN-00544,V-002,Redwood Marketing,INV-442658,2026-07-07,1145.68,M. Garcia,Operations,Wire,Logistics support,normal
+TXN-00545,V-007,Blue Harbor Technology,INV-824762,2026-01-09,3643.57,A. Chen,Finance,ACH,Technical consulting,normal
+TXN-00546,V-001,Redwood Marketing,INV-457772,2026-06-03,2343.73,L. Johnson,Engineering,ACH,Marketing services,normal
+TXN-00547,V-004,Metro Data Services,INV-815328,2026-04-09,1923.29,J. Smith,Operations,ACH,Software subscription,normal
+TXN-00548,V-005,Pacific Equipment,INV-626276,2026-08-03,3151.5,S. Patel,Engineering,ACH,Technical consulting,normal
+TXN-00549,V-005,Greenfield Logistics,INV-523152,2026-03-17,2241.49,L. Johnson,Operations,Corporate Card,Marketing services,normal
+TXN-00550,V-006,Northstar Consulting,INV-215247,2026-06-04,3610.21,M. Garcia,Engineering,ACH,Software subscription,normal
+TXN-00551,V-007,Summit Office Supply,INV-689131,2026-04-17,2973.89,L. Johnson,Engineering,ACH,Office equipment,normal
+TXN-00552,V-004,Pacific Equipment,INV-388976,2026-05-07,4398.88,M. Garcia,Operations,Wire,Software subscription,normal
+TXN-00553,V-007,Redwood Marketing,INV-295172,2026-08-17,2065.69,A. Chen,Finance,ACH,Logistics support,normal
+TXN-00554,V-003,Redwood Marketing,INV-273887,2026-06-23,2946.63,A. Chen,Marketing,Wire,Professional services,normal
+TXN-00555,V-008,Greenfield Logistics,INV-983688,2026-04-10,1339.92,A. Chen,Finance,ACH,Logistics support,normal
+TXN-00556,V-005,Blue Harbor Technology,INV-192955,2026-04-20,1106.6,L. Johnson,Finance,ACH,Data services,normal
+TXN-00557,V-006,Brightline Solutions,INV-818672,2026-06-19,4961.18,M. Garcia,Marketing,ACH,Professional services,normal
+TXN-00558,V-008,Pacific Equipment,INV-879529,2026-03-25,1882.83,J. Smith,Marketing,Wire,Marketing services,normal
+TXN-00559,V-007,Brightline Solutions,INV-127947,2026-02-11,2760.51,M. Garcia,Finance,Wire,Logistics support,normal
+TXN-00560,V-007,Pacific Equipment,INV-630397,2026-04-23,1773.0,J. Smith,Marketing,Wire,Logistics support,normal
+TXN-00561,V-005,Summit Office Supply,INV-619663,2026-01-16,1117.41,L. Johnson,Operations,Corporate Card,Data services,normal
+TXN-00562,V-001,Summit Office Supply,INV-422805,2026-02-11,1647.71,L. Johnson,Finance,Wire,Office equipment,normal
+TXN-00563,V-004,Blue Harbor Technology,INV-700042,2026-04-13,4160.52,A. Chen,Marketing,Wire,Software subscription,normal
+TXN-00564,V-002,Brightline Solutions,INV-467802,2026-07-13,2347.03,S. Patel,Finance,ACH,Professional services,normal
+TXN-00565,V-008,Redwood Marketing,INV-495721,2026-07-09,537.83,J. Smith,Finance,Corporate Card,Office equipment,normal
+TXN-00566,V-002,Greenfield Logistics,INV-488366,2026-03-05,1422.39,A. Chen,Finance,ACH,Marketing services,normal
+TXN-00567,V-002,Brightline Solutions,INV-820606,2026-04-13,5210.81,L. Johnson,Operations,Corporate Card,Professional services,normal
+TXN-00568,V-002,Redwood Marketing,INV-669833,2026-02-06,1423.73,A. Chen,Engineering,ACH,Technical consulting,normal
+TXN-00569,V-006,Brightline Solutions,INV-441141,2026-07-02,507.6,J. Smith,Engineering,ACH,Marketing services,normal
+TXN-00570,V-005,Brightline Solutions,INV-934091,2026-03-02,5599.78,A. Chen,Engineering,Wire,Office equipment,normal
+TXN-00571,V-008,Northstar Consulting,INV-821852,2026-07-14,2549.25,M. Garcia,Engineering,ACH,Technical consulting,normal
+TXN-00572,V-004,Summit Office Supply,INV-939500,2026-07-23,1563.2,M. Garcia,Human Resources,ACH,Software subscription,normal
+TXN-00573,V-003,Metro Data Services,INV-757450,2026-06-17,1285.08,J. Smith,Marketing,Corporate Card,Technical consulting,normal
+TXN-00574,V-001,Pacific Equipment,INV-452342,2026-03-23,3306.11,A. Chen,Engineering,ACH,Software subscription,normal
+TXN-00575,V-001,Blue Harbor Technology,INV-795646,2026-08-19,1150.22,A. Chen,Human Resources,ACH,Office equipment,normal
+TXN-00576,V-003,Summit Office Supply,INV-396335,2026-06-16,3450.82,L. Johnson,Operations,ACH,Office equipment,normal
+TXN-00577,V-008,Redwood Marketing,INV-343835,2026-06-05,2327.21,L. Johnson,Human Resources,ACH,Technical consulting,normal
+TXN-00578,V-005,Pacific Equipment,INV-505941,2026-07-28,1918.01,L. Johnson,Finance,ACH,Software subscription,normal
+TXN-00579,V-008,Northstar Consulting,INV-972372,2026-08-03,1798.28,M. Garcia,Human Resources,Corporate Card,Technical consulting,normal
+TXN-00580,V-001,Redwood Marketing,INV-611140,2026-01-20,1460.12,M. Garcia,Operations,Corporate Card,Office equipment,normal
+TXN-00581,V-001,Summit Office Supply,INV-445323,2026-08-03,3228.16,S. Patel,Marketing,Wire,Software subscription,normal
+TXN-00582,V-007,Blue Harbor Technology,INV-515635,2026-07-06,932.18,S. Patel,Finance,Wire,Marketing services,normal
+TXN-00583,V-001,Redwood Marketing,INV-362094,2026-02-19,570.06,M. Garcia,Engineering,ACH,Marketing services,normal
+TXN-00584,V-001,Greenfield Logistics,INV-692877,2026-03-17,2439.1,J. Smith,Operations,Corporate Card,Office equipment,normal
+TXN-00585,V-004,Metro Data Services,INV-415381,2026-07-02,2465.88,M. Garcia,Marketing,ACH,Professional services,normal
+TXN-00586,V-008,Summit Office Supply,INV-598958,2026-02-23,2235.36,A. Chen,Marketing,ACH,Office equipment,normal
+TXN-00587,V-006,Pacific Equipment,INV-432835,2026-04-21,2132.44,A. Chen,Human Resources,Corporate Card,Data services,normal
+TXN-00588,V-001,Northstar Consulting,INV-388643,2026-06-17,1328.29,S. Patel,Operations,Corporate Card,Professional services,normal
+TXN-00589,V-007,Pacific Equipment,INV-973211,2026-06-08,2729.47,L. Johnson,Finance,ACH,Professional services,normal
+TXN-00590,V-007,Northstar Consulting,INV-411157,2026-08-10,1588.25,A. Chen,Marketing,Wire,Technical consulting,normal
+TXN-00591,V-007,Metro Data Services,INV-163468,2026-01-28,1191.99,A. Chen,Finance,ACH,Professional services,normal
+TXN-00592,V-008,Summit Office Supply,INV-440733,2026-03-13,1335.78,A. Chen,Engineering,ACH,Office equipment,normal
+TXN-00593,V-002,Greenfield Logistics,INV-578929,2026-08-27,6083.99,S. Patel,Human Resources,ACH,Logistics support,normal
+TXN-00594,V-008,Northstar Consulting,INV-185175,2026-05-19,529.68,J. Smith,Human Resources,ACH,Office equipment,normal
+TXN-00595,V-003,Metro Data Services,INV-375115,2026-03-03,2263.94,J. Smith,Engineering,ACH,Data services,normal
+TXN-00596,V-007,Blue Harbor Technology,INV-249456,2026-03-12,549.26,A. Chen,Engineering,ACH,Professional services,normal
+TXN-00597,V-005,Metro Data Services,INV-550582,2026-03-24,1524.85,L. Johnson,Operations,ACH,Logistics support,normal
+TXN-00598,V-007,Metro Data Services,INV-750801,2026-05-14,1234.16,M. Garcia,Engineering,ACH,Marketing services,normal
+TXN-00599,V-006,Pacific Equipment,INV-971631,2026-03-11,421.88,S. Patel,Finance,Corporate Card,Logistics support,normal
+TXN-00600,V-006,Metro Data Services,INV-450186,2026-06-01,2106.69,S. Patel,Operations,ACH,Technical consulting,normal
+TXN-00601,V-005,Summit Office Supply,INV-876931,2026-04-20,1277.9,A. Chen,Operations,Corporate Card,Office equipment,normal
+TXN-00602,V-007,Metro Data Services,INV-293084,2026-05-28,418.01,L. Johnson,Finance,ACH,Professional services,normal
+TXN-00603,V-006,Pacific Equipment,INV-802446,2026-02-06,2823.46,M. Garcia,Operations,ACH,Office equipment,normal
+TXN-00604,V-002,Summit Office Supply,INV-606404,2026-06-01,4157.85,S. Patel,Engineering,Wire,Software subscription,normal
+TXN-00605,V-007,Northstar Consulting,INV-782355,2026-08-12,4309.52,J. Smith,Marketing,ACH,Data services,normal
+TXN-00606,V-005,Brightline Solutions,INV-779984,2026-02-03,2065.9,L. Johnson,Operations,ACH,Software subscription,normal
+TXN-00607,V-003,Blue Harbor Technology,INV-579188,2026-03-20,1685.7,L. Johnson,Marketing,ACH,Technical consulting,normal
+TXN-00608,V-005,Redwood Marketing,INV-331679,2026-06-17,3878.88,M. Garcia,Marketing,ACH,Marketing services,normal
+TXN-00609,V-008,Blue Harbor Technology,INV-573565,2026-05-29,4883.17,A. Chen,Finance,ACH,Software subscription,normal
+TXN-00610,V-007,Blue Harbor Technology,INV-844110,2026-06-12,3418.03,L. Johnson,Marketing,ACH,Technical consulting,normal
+TXN-00611,V-007,Pacific Equipment,INV-973592,2026-05-15,887.14,L. Johnson,Human Resources,ACH,Logistics support,normal
+TXN-00612,V-004,Blue Harbor Technology,INV-934753,2026-06-16,1864.73,M. Garcia,Human Resources,ACH,Data services,normal
+TXN-00613,V-007,Metro Data Services,INV-263320,2026-05-28,2176.96,M. Garcia,Engineering,ACH,Software subscription,normal
+TXN-00614,V-004,Metro Data Services,INV-637654,2026-01-19,504.59,J. Smith,Engineering,ACH,Office equipment,normal
+TXN-00615,V-006,Northstar Consulting,INV-194135,2026-07-01,2219.6,A. Chen,Engineering,Wire,Marketing services,normal
+TXN-00616,V-006,Blue Harbor Technology,INV-702052,2026-04-20,7168.45,L. Johnson,Operations,ACH,Logistics support,normal
+TXN-00617,V-002,Pacific Equipment,INV-993101,2026-01-13,2479.86,M. Garcia,Operations,ACH,Software subscription,normal
+TXN-00618,V-003,Redwood Marketing,INV-147318,2026-04-09,4262.96,J. Smith,Engineering,ACH,Logistics support,normal
+TXN-00619,V-001,Northstar Consulting,INV-690914,2026-04-16,1842.53,S. Patel,Engineering,ACH,Software subscription,normal
+TXN-00620,V-002,Brightline Solutions,INV-950966,2026-01-22,1559.95,A. Chen,Operations,ACH,Software subscription,normal
+TXN-00621,V-004,Summit Office Supply,INV-862465,2026-08-31,2096.08,A. Chen,Operations,ACH,Data services,normal
+TXN-00622,V-004,Northstar Consulting,INV-453235,2026-02-24,962.67,J. Smith,Operations,ACH,Software subscription,normal
+TXN-00623,V-002,Brightline Solutions,INV-193529,2026-03-23,874.41,M. Garcia,Marketing,Corporate Card,Office equipment,normal
+TXN-00624,V-004,Northstar Consulting,INV-931509,2026-04-17,3726.03,J. Smith,Marketing,Corporate Card,Office equipment,normal
+TXN-00625,V-005,Redwood Marketing,INV-929189,2026-07-22,3991.9,A. Chen,Finance,ACH,Software subscription,normal
+TXN-00626,V-002,Brightline Solutions,INV-621079,2026-06-30,859.01,J. Smith,Operations,ACH,Logistics support,normal
+TXN-00627,V-003,Redwood Marketing,INV-981004,2026-07-07,3069.28,J. Smith,Engineering,ACH,Office equipment,normal
+TXN-00628,V-003,Redwood Marketing,INV-104156,2026-02-27,1546.08,M. Garcia,Engineering,Wire,Marketing services,normal
+TXN-00629,V-005,Greenfield Logistics,INV-654948,2026-07-24,2040.35,M. Garcia,Human Resources,Wire,Logistics support,normal
+TXN-00630,V-003,Blue Harbor Technology,INV-134687,2026-07-21,2206.45,L. Johnson,Finance,ACH,Marketing services,normal
+TXN-00631,V-006,Redwood Marketing,INV-942123,2026-04-23,3122.31,L. Johnson,Engineering,ACH,Software subscription,normal
+TXN-00632,V-003,Brightline Solutions,INV-712376,2026-05-13,1726.35,J. Smith,Engineering,ACH,Logistics support,normal
+TXN-00633,V-004,Northstar Consulting,INV-922084,2026-01-09,4091.25,L. Johnson,Operations,Corporate Card,Software subscription,normal
+TXN-00634,V-004,Brightline Solutions,INV-606400,2026-07-03,2000.43,M. Garcia,Marketing,Corporate Card,Software subscription,normal
+TXN-00635,V-002,Greenfield Logistics,INV-174936,2026-08-21,2454.6,A. Chen,Marketing,ACH,Technical consulting,normal
+TXN-00636,V-006,Redwood Marketing,INV-123879,2026-04-24,951.82,J. Smith,Engineering,ACH,Office equipment,normal
+TXN-00637,V-002,Blue Harbor Technology,INV-402015,2026-05-12,6655.03,S. Patel,Human Resources,ACH,Marketing services,normal
+TXN-00638,V-003,Redwood Marketing,INV-769113,2026-05-01,2220.27,L. Johnson,Engineering,Wire,Professional services,normal
+TXN-00639,V-007,Blue Harbor Technology,INV-235928,2026-01-21,2600.47,J. Smith,Operations,Corporate Card,Marketing services,normal
+TXN-00640,V-008,Summit Office Supply,INV-866929,2026-06-01,575.18,A. Chen,Engineering,ACH,Technical consulting,normal
+TXN-00641,V-006,Metro Data Services,INV-315534,2026-06-24,958.38,A. Chen,Finance,ACH,Marketing services,normal
+TXN-00642,V-008,Northstar Consulting,INV-546775,2026-08-13,3657.83,A. Chen,Engineering,ACH,Marketing services,normal
+TXN-00643,V-007,Greenfield Logistics,INV-282772,2026-08-13,1971.36,S. Patel,Finance,ACH,Logistics support,normal
+TXN-00644,V-004,Redwood Marketing,INV-519181,2026-04-30,471.56,M. Garcia,Human Resources,Wire,Office equipment,normal
+TXN-00645,V-007,Blue Harbor Technology,INV-506956,2026-08-20,3212.77,M. Garcia,Human Resources,ACH,Office equipment,normal
+TXN-00646,V-003,Summit Office Supply,INV-104925,2026-05-08,1148.88,S. Patel,Operations,Corporate Card,Professional services,normal
+TXN-00647,V-004,Summit Office Supply,INV-611029,2026-06-05,4094.32,L. Johnson,Marketing,ACH,Marketing services,normal
+TXN-00648,V-005,Metro Data Services,INV-807983,2026-05-27,1545.2,S. Patel,Engineering,ACH,Logistics support,normal
+TXN-00649,V-008,Brightline Solutions,INV-942647,2026-08-31,1868.81,A. Chen,Engineering,ACH,Logistics support,normal
+TXN-00650,V-007,Pacific Equipment,INV-397644,2026-06-29,3520.37,M. Garcia,Engineering,ACH,Logistics support,normal
+TXN-00651,V-004,Blue Harbor Technology,INV-892526,2026-01-29,912.9,L. Johnson,Operations,ACH,Professional services,normal
+TXN-00652,V-006,Northstar Consulting,INV-890886,2026-01-19,858.04,S. Patel,Marketing,Wire,Marketing services,normal
+TXN-00653,V-002,Northstar Consulting,INV-989543,2026-04-09,1439.82,J. Smith,Finance,ACH,Logistics support,normal
+TXN-00654,V-007,Redwood Marketing,INV-435754,2026-05-06,2800.81,J. Smith,Marketing,ACH,Software subscription,normal
+TXN-00655,V-005,Blue Harbor Technology,INV-865801,2026-06-11,688.79,L. Johnson,Operations,ACH,Data services,normal
+TXN-00656,V-005,Blue Harbor Technology,INV-608569,2026-04-28,553.23,A. Chen,Operations,ACH,Technical consulting,normal
+TXN-00657,V-007,Pacific Equipment,INV-152443,2026-05-06,2794.53,M. Garcia,Operations,Corporate Card,Office equipment,normal
+TXN-00658,V-006,Pacific Equipment,INV-343307,2026-08-12,1105.51,A. Chen,Marketing,Corporate Card,Logistics support,normal
+TXN-00659,V-001,Pacific Equipment,INV-704845,2026-03-23,1267.82,L. Johnson,Human Resources,ACH,Data services,normal
+TXN-00660,V-003,Summit Office Supply,INV-244529,2026-04-30,489.35,A. Chen,Marketing,Wire,Marketing services,normal
+TXN-00661,V-002,Redwood Marketing,INV-491258,2026-05-15,1052.23,A. Chen,Human Resources,Wire,Marketing services,normal
+TXN-00662,V-006,Redwood Marketing,INV-797416,2026-04-24,1627.96,J. Smith,Marketing,Corporate Card,Marketing services,normal
+TXN-00663,V-001,Blue Harbor Technology,INV-234783,2026-08-24,2995.14,J. Smith,Operations,ACH,Logistics support,normal
+TXN-00664,V-002,Redwood Marketing,INV-546930,2026-08-21,990.99,M. Garcia,Engineering,ACH,Technical consulting,normal
+TXN-00665,V-005,Redwood Marketing,INV-293372,2026-05-05,4804.43,J. Smith,Marketing,ACH,Office equipment,normal
+TXN-00666,V-006,Greenfield Logistics,INV-582838,2026-04-20,1048.42,J. Smith,Marketing,Corporate Card,Technical consulting,normal
+TXN-00667,V-005,Pacific Equipment,INV-316640,2026-05-22,1049.42,M. Garcia,Marketing,Wire,Marketing services,normal
+TXN-00668,V-007,Metro Data Services,INV-968873,2026-02-13,4443.88,M. Garcia,Human Resources,ACH,Marketing services,normal
+TXN-00669,V-008,Redwood Marketing,INV-169030,2026-04-14,1877.04,L. Johnson,Finance,ACH,Office equipment,normal
+TXN-00670,V-002,Metro Data Services,INV-967220,2026-02-23,1142.74,M. Garcia,Operations,Wire,Office equipment,normal
+TXN-00671,V-008,Pacific Equipment,INV-812686,2026-02-04,1479.06,M. Garcia,Engineering,Corporate Card,Marketing services,normal
+TXN-00672,V-005,Redwood Marketing,INV-870077,2026-01-23,3942.21,S. Patel,Engineering,ACH,Office equipment,normal
+TXN-00673,V-006,Summit Office Supply,INV-866357,2026-05-22,4243.03,A. Chen,Operations,Wire,Office equipment,normal
+TXN-00674,V-001,Pacific Equipment,INV-268848,2026-01-01,962.07,S. Patel,Finance,ACH,Logistics support,normal
+TXN-00675,V-005,Metro Data Services,INV-937981,2026-06-05,1591.48,L. Johnson,Finance,ACH,Office equipment,normal
+TXN-00676,V-006,Brightline Solutions,INV-634844,2026-04-15,1734.72,J. Smith,Operations,ACH,Marketing services,normal
+TXN-00677,V-005,Blue Harbor Technology,INV-965940,2026-03-31,861.73,A. Chen,Human Resources,Wire,Professional services,normal
+TXN-00678,V-001,Greenfield Logistics,INV-890331,2026-07-07,1577.83,J. Smith,Finance,Corporate Card,Professional services,normal
+TXN-00679,V-005,Brightline Solutions,INV-621648,2026-05-12,1641.65,J. Smith,Human Resources,ACH,Logistics support,normal
+TXN-00680,V-008,Redwood Marketing,INV-437017,2026-06-26,3432.82,M. Garcia,Engineering,ACH,Professional services,normal
+TXN-00681,V-006,Brightline Solutions,INV-205558,2026-06-22,3586.12,L. Johnson,Finance,ACH,Logistics support,normal
+TXN-00682,V-002,Northstar Consulting,INV-190995,2026-01-08,1320.83,M. Garcia,Marketing,ACH,Technical consulting,normal
+TXN-00683,V-008,Northstar Consulting,INV-450738,2026-02-23,1423.58,A. Chen,Marketing,ACH,Data services,normal
+TXN-00684,V-008,Pacific Equipment,INV-829865,2026-05-19,2519.44,J. Smith,Human Resources,ACH,Technical consulting,normal
+TXN-00685,V-002,Summit Office Supply,INV-554808,2026-08-25,1118.37,S. Patel,Operations,ACH,Office equipment,normal
+TXN-00686,V-007,Redwood Marketing,INV-533586,2026-02-06,2398.54,J. Smith,Marketing,ACH,Technical consulting,normal
+TXN-00687,V-004,Greenfield Logistics,INV-320008,2026-01-27,1545.13,M. Garcia,Marketing,ACH,Software subscription,normal
+TXN-00688,V-005,Greenfield Logistics,INV-607952,2026-08-17,871.22,S. Patel,Operations,Wire,Office equipment,normal
+TXN-00689,V-004,Brightline Solutions,INV-674267,2026-08-24,878.36,J. Smith,Finance,ACH,Office equipment,normal
+TXN-00690,V-007,Northstar Consulting,INV-983928,2026-02-10,4190.55,S. Patel,Marketing,ACH,Logistics support,normal
+TXN-00691,V-008,Pacific Equipment,INV-756474,2026-04-08,1477.82,J. Smith,Finance,Corporate Card,Professional services,normal
+TXN-00692,V-007,Brightline Solutions,INV-646489,2026-06-02,4751.57,A. Chen,Engineering,ACH,Logistics support,normal
+TXN-00693,V-008,Metro Data Services,INV-919068,2026-02-17,1171.61,J. Smith,Engineering,ACH,Professional services,normal
+TXN-00694,V-008,Greenfield Logistics,INV-482481,2026-03-20,1976.9,M. Garcia,Operations,ACH,Office equipment,normal
+TXN-00695,V-001,Blue Harbor Technology,INV-941453,2026-04-07,7748.39,A. Chen,Finance,ACH,Marketing services,normal
+TXN-00696,V-003,Metro Data Services,INV-432985,2026-06-04,822.79,L. Johnson,Marketing,ACH,Software subscription,normal
+TXN-00697,V-006,Greenfield Logistics,INV-215001,2026-03-17,476.48,M. Garcia,Human Resources,ACH,Data services,normal
+TXN-00698,V-005,Blue Harbor Technology,INV-475856,2026-04-10,3775.48,A. Chen,Marketing,ACH,Technical consulting,normal
+TXN-00699,V-001,Summit Office Supply,INV-215889,2026-03-12,955.82,L. Johnson,Finance,ACH,Logistics support,normal
+TXN-00700,V-001,Brightline Solutions,INV-206559,2026-07-03,1614.11,L. Johnson,Finance,ACH,Professional services,normal
+TXN-00701,V-005,Summit Office Supply,INV-893086,2026-02-06,1117.84,A. Chen,Human Resources,ACH,Marketing services,normal
+TXN-00702,V-005,Blue Harbor Technology,INV-815274,2026-02-25,1947.51,A. Chen,Finance,ACH,Marketing services,normal
+TXN-00703,V-002,Metro Data Services,INV-299090,2026-03-03,881.96,J. Smith,Operations,ACH,Professional services,normal
+TXN-00704,V-002,Blue Harbor Technology,INV-853944,2026-08-07,1455.4,M. Garcia,Human Resources,Wire,Marketing services,normal
+TXN-00705,V-002,Brightline Solutions,INV-162011,2026-08-18,2191.58,S. Patel,Engineering,ACH,Data services,normal
+TXN-00706,V-005,Pacific Equipment,INV-355957,2026-05-01,849.46,M. Garcia,Operations,ACH,Marketing services,normal
+TXN-00707,V-001,Brightline Solutions,INV-735490,2026-02-09,1037.89,S. Patel,Marketing,ACH,Office equipment,normal
+TXN-00708,V-005,Brightline Solutions,INV-373416,2026-07-02,1305.32,A. Chen,Finance,ACH,Software subscription,normal
+TXN-00709,V-004,Blue Harbor Technology,INV-757452,2026-04-30,646.3,S. Patel,Finance,Corporate Card,Logistics support,normal
+TXN-00710,V-004,Blue Harbor Technology,INV-886899,2026-07-27,1243.06,L. Johnson,Human Resources,ACH,Logistics support,normal
+TXN-00711,V-006,Summit Office Supply,INV-159455,2026-03-30,1767.32,M. Garcia,Finance,ACH,Software subscription,normal
+TXN-00712,V-005,Greenfield Logistics,INV-121573,2026-08-31,1261.8,M. Garcia,Finance,Corporate Card,Software subscription,normal
+TXN-00713,V-006,Brightline Solutions,INV-946000,2026-07-15,1371.42,J. Smith,Human Resources,Wire,Marketing services,normal
+TXN-00714,V-007,Metro Data Services,INV-568411,2026-02-24,1614.96,L. Johnson,Operations,Wire,Logistics support,normal
+TXN-00715,V-008,Metro Data Services,INV-555826,2026-06-25,1068.24,A. Chen,Marketing,ACH,Software subscription,normal
+TXN-00716,V-007,Brightline Solutions,INV-517307,2026-03-11,2563.66,J. Smith,Engineering,ACH,Software subscription,normal
+TXN-00717,V-005,Metro Data Services,INV-490250,2026-03-26,4160.48,A. Chen,Operations,ACH,Logistics support,normal
+TXN-00718,V-004,Greenfield Logistics,INV-721113,2026-03-03,1209.73,L. Johnson,Human Resources,ACH,Marketing services,normal
+TXN-00719,V-002,Greenfield Logistics,INV-621770,2026-06-16,2242.57,M. Garcia,Operations,ACH,Technical consulting,normal
+TXN-00720,V-005,Redwood Marketing,INV-247052,2026-03-05,1400.03,L. Johnson,Engineering,Wire,Logistics support,normal
+TXN-00721,V-002,Northstar Consulting,INV-663974,2026-06-04,2074.69,S. Patel,Human Resources,ACH,Technical consulting,normal
+TXN-00722,V-008,Metro Data Services,INV-701496,2026-05-21,4526.74,M. Garcia,Operations,ACH,Software subscription,normal
+TXN-00723,V-007,Metro Data Services,INV-202240,2026-07-01,2277.03,M. Garcia,Marketing,ACH,Software subscription,normal
+TXN-00724,V-001,Metro Data Services,INV-439060,2026-08-28,516.61,J. Smith,Human Resources,ACH,Software subscription,normal
+TXN-00725,V-007,Redwood Marketing,INV-811455,2026-01-02,2197.55,M. Garcia,Marketing,ACH,Professional services,normal
+TXN-00726,V-001,Pacific Equipment,INV-656842,2026-08-28,3645.91,S. Patel,Finance,Corporate Card,Logistics support,normal
+TXN-00727,V-006,Brightline Solutions,INV-222732,2026-01-27,1416.53,L. Johnson,Operations,ACH,Marketing services,normal
+TXN-00728,V-001,Redwood Marketing,INV-136085,2026-05-08,3124.92,M. Garcia,Human Resources,ACH,Professional services,normal
+TXN-00729,V-004,Greenfield Logistics,INV-623089,2026-03-24,1044.64,L. Johnson,Finance,ACH,Software subscription,normal
+TXN-00730,V-006,Northstar Consulting,INV-515554,2026-06-04,622.91,L. Johnson,Human Resources,ACH,Software subscription,normal
+TXN-00731,V-006,Pacific Equipment,INV-964945,2026-06-24,1793.21,M. Garcia,Human Resources,ACH,Office equipment,normal
+TXN-00732,V-004,Brightline Solutions,INV-570025,2026-07-28,522.33,M. Garcia,Human Resources,Corporate Card,Data services,normal
+TXN-00733,V-008,Metro Data Services,INV-938338,2026-04-08,1399.89,A. Chen,Operations,ACH,Office equipment,normal
+TXN-00734,V-007,Pacific Equipment,INV-292893,2026-08-14,3776.1,J. Smith,Marketing,ACH,Technical consulting,normal
+TXN-00735,V-002,Pacific Equipment,INV-502603,2026-03-19,472.79,L. Johnson,Operations,Corporate Card,Software subscription,normal
+TXN-00736,V-006,Pacific Equipment,INV-225661,2026-02-19,712.18,A. Chen,Finance,ACH,Data services,normal
+TXN-00737,V-006,Redwood Marketing,INV-616805,2026-04-02,836.46,J. Smith,Human Resources,Corporate Card,Data services,normal
+TXN-00738,V-003,Northstar Consulting,INV-269626,2026-05-08,1570.02,S. Patel,Engineering,ACH,Office equipment,normal
+TXN-00739,V-006,Northstar Consulting,INV-543036,2026-06-11,1289.85,J. Smith,Operations,ACH,Logistics support,normal
+TXN-00740,V-008,Blue Harbor Technology,INV-409726,2026-07-22,4062.03,L. Johnson,Operations,Corporate Card,Technical consulting,normal
+TXN-00741,V-007,Greenfield Logistics,INV-267156,2026-02-24,3042.17,S. Patel,Engineering,ACH,Professional services,normal
+TXN-00742,V-007,Metro Data Services,INV-187129,2026-03-16,2257.31,A. Chen,Operations,ACH,Data services,normal
+TXN-00743,V-006,Greenfield Logistics,INV-560846,2026-08-17,1798.41,J. Smith,Human Resources,ACH,Professional services,normal
+TXN-00744,V-003,Northstar Consulting,INV-952586,2026-04-17,2112.44,S. Patel,Human Resources,Wire,Data services,normal
+TXN-00745,V-007,Blue Harbor Technology,INV-278873,2026-02-27,934.22,L. Johnson,Human Resources,ACH,Marketing services,normal
+TXN-00746,V-003,Brightline Solutions,INV-464494,2026-08-27,2856.03,L. Johnson,Engineering,ACH,Office equipment,normal
+TXN-00747,V-005,Brightline Solutions,INV-302145,2026-04-20,794.07,L. Johnson,Engineering,Wire,Office equipment,normal
+TXN-00748,V-003,Greenfield Logistics,INV-828071,2026-08-27,2815.78,A. Chen,Marketing,ACH,Office equipment,normal
+TXN-00749,V-003,Pacific Equipment,INV-473411,2026-08-12,3536.85,S. Patel,Finance,ACH,Office equipment,normal
+TXN-00750,V-002,Metro Data Services,INV-976974,2026-08-07,1876.31,A. Chen,Operations,ACH,Office equipment,normal
+TXN-00751,V-008,Brightline Solutions,INV-320650,2026-05-21,1458.93,A. Chen,Human Resources,ACH,Office equipment,normal
+TXN-00752,V-002,Brightline Solutions,INV-172661,2026-07-14,2122.18,S. Patel,Finance,ACH,Marketing services,normal
+TXN-00753,V-001,Metro Data Services,INV-624267,2026-08-21,254.68,M. Garcia,Operations,ACH,Professional services,normal
+TXN-00754,V-008,Greenfield Logistics,INV-686501,2026-03-06,1991.15,S. Patel,Finance,ACH,Professional services,normal
+TXN-00755,V-005,Metro Data Services,INV-991666,2026-01-09,1519.78,L. Johnson,Operations,ACH,Data services,normal
+TXN-00756,V-004,Summit Office Supply,INV-884267,2026-03-19,1583.02,A. Chen,Finance,ACH,Marketing services,normal
+TXN-00757,V-006,Summit Office Supply,INV-895752,2026-06-04,2589.57,M. Garcia,Engineering,Wire,Software subscription,normal
+TXN-00758,V-004,Redwood Marketing,INV-670810,2026-05-13,1558.38,L. Johnson,Human Resources,ACH,Software subscription,normal
+TXN-00759,V-002,Redwood Marketing,INV-423833,2026-01-20,779.67,M. Garcia,Engineering,Corporate Card,Marketing services,normal
+TXN-00760,V-006,Redwood Marketing,INV-486123,2026-05-18,1492.32,M. Garcia,Engineering,Corporate Card,Office equipment,normal
+TXN-00761,V-002,Greenfield Logistics,INV-220370,2026-02-12,1709.42,M. Garcia,Marketing,ACH,Logistics support,normal
+TXN-00762,V-005,Greenfield Logistics,INV-487968,2026-05-04,1762.89,L. Johnson,Operations,Corporate Card,Software subscription,normal
+TXN-00763,V-008,Northstar Consulting,INV-427994,2026-05-20,1817.56,A. Chen,Finance,Corporate Card,Professional services,normal
+TXN-00764,V-008,Redwood Marketing,INV-132308,2026-06-04,3215.02,L. Johnson,Marketing,ACH,Data services,normal
+TXN-00765,V-003,Redwood Marketing,INV-284020,2026-04-10,807.61,L. Johnson,Operations,Wire,Office equipment,normal
+TXN-00766,V-007,Brightline Solutions,INV-581140,2026-04-09,1833.91,L. Johnson,Engineering,ACH,Logistics support,normal
+TXN-00767,V-005,Redwood Marketing,INV-432408,2026-06-15,3783.69,M. Garcia,Finance,Wire,Data services,normal
+TXN-00768,V-004,Greenfield Logistics,INV-994187,2026-07-01,529.8,M. Garcia,Human Resources,ACH,Office equipment,normal
+TXN-00769,V-002,Northstar Consulting,INV-530674,2026-07-15,1838.62,J. Smith,Operations,ACH,Software subscription,normal
+TXN-00770,V-004,Blue Harbor Technology,INV-962835,2026-03-23,1118.23,J. Smith,Human Resources,ACH,Software subscription,normal
+TXN-00771,V-006,Summit Office Supply,INV-694639,2026-04-14,1285.67,L. Johnson,Operations,Corporate Card,Logistics support,normal
+TXN-00772,V-008,Greenfield Logistics,INV-136359,2026-03-23,908.57,M. Garcia,Operations,ACH,Software subscription,normal
+TXN-00773,V-001,Summit Office Supply,INV-283100,2026-05-08,1465.27,S. Patel,Engineering,ACH,Data services,normal
+TXN-00774,V-006,Greenfield Logistics,INV-735216,2026-02-02,5414.39,A. Chen,Human Resources,ACH,Logistics support,normal
+TXN-00775,V-007,Pacific Equipment,INV-590605,2026-04-15,719.19,S. Patel,Finance,ACH,Technical consulting,normal
+TXN-00776,V-008,Blue Harbor Technology,INV-371588,2026-02-16,764.91,S. Patel,Operations,Wire,Software subscription,normal
+TXN-00777,V-004,Summit Office Supply,INV-569875,2026-05-11,701.87,L. Johnson,Finance,Wire,Professional services,normal
+TXN-00778,V-001,Blue Harbor Technology,INV-912689,2026-07-27,5028.22,A. Chen,Operations,ACH,Logistics support,normal
+TXN-00779,V-003,Summit Office Supply,INV-449836,2026-08-27,1211.34,M. Garcia,Human Resources,ACH,Marketing services,normal
+TXN-00780,V-007,Metro Data Services,INV-140603,2026-04-20,1608.95,M. Garcia,Human Resources,ACH,Office equipment,normal
+TXN-00781,V-008,Northstar Consulting,INV-379863,2026-01-14,1259.15,M. Garcia,Marketing,ACH,Marketing services,normal
+TXN-00782,V-006,Summit Office Supply,INV-942285,2026-02-25,885.48,A. Chen,Marketing,Wire,Software subscription,normal
+TXN-00783,V-001,Northstar Consulting,INV-785598,2026-01-27,1404.1,M. Garcia,Operations,Wire,Marketing services,normal
+TXN-00784,V-001,Brightline Solutions,INV-853727,2026-07-03,8085.75,J. Smith,Marketing,ACH,Logistics support,normal
+TXN-00785,V-004,Metro Data Services,INV-920445,2026-08-27,4043.42,S. Patel,Finance,ACH,Office equipment,normal
+TXN-00786,V-005,Blue Harbor Technology,INV-205753,2026-05-14,939.73,J. Smith,Marketing,ACH,Data services,normal
+TXN-00787,V-001,Blue Harbor Technology,INV-354405,2026-02-12,2492.21,M. Garcia,Operations,ACH,Office equipment,normal
+TXN-00788,V-006,Northstar Consulting,INV-153841,2026-01-06,952.9,S. Patel,Operations,ACH,Professional services,normal
+TXN-00789,V-005,Greenfield Logistics,INV-104262,2026-08-25,515.62,A. Chen,Human Resources,Wire,Professional services,normal
+TXN-00790,V-001,Pacific Equipment,INV-851236,2026-03-18,3173.79,S. Patel,Operations,ACH,Technical consulting,normal
+TXN-00791,V-001,Redwood Marketing,INV-943251,2026-01-28,3477.47,S. Patel,Marketing,Corporate Card,Data services,normal
+TXN-00792,V-004,Brightline Solutions,INV-240181,2026-02-12,3229.02,A. Chen,Engineering,ACH,Software subscription,normal
+TXN-00793,V-006,Summit Office Supply,INV-749951,2026-03-04,1205.43,A. Chen,Engineering,ACH,Professional services,normal
+TXN-00794,V-007,Summit Office Supply,INV-581407,2026-06-09,1467.91,L. Johnson,Operations,ACH,Office equipment,normal
+TXN-00795,V-004,Greenfield Logistics,INV-162302,2026-08-05,2663.37,J. Smith,Operations,ACH,Technical consulting,normal
+TXN-00796,V-003,Blue Harbor Technology,INV-924169,2026-03-09,2110.06,L. Johnson,Marketing,ACH,Office equipment,normal
+TXN-00797,V-008,Brightline Solutions,INV-884113,2026-06-16,1266.66,M. Garcia,Human Resources,ACH,Technical consulting,normal
+TXN-00798,V-004,Blue Harbor Technology,INV-610702,2026-01-16,571.12,J. Smith,Human Resources,Wire,Data services,normal
+TXN-00799,V-003,Greenfield Logistics,INV-737098,2026-01-02,1761.67,J. Smith,Finance,ACH,Logistics support,normal
+TXN-00800,V-004,Redwood Marketing,INV-457509,2026-01-14,3298.94,S. Patel,Marketing,Wire,Logistics support,normal
+TXN-00801,V-001,Northstar Consulting,INV-813554,2026-08-12,751.12,A. Chen,Marketing,Wire,Professional services,normal
+TXN-00802,V-003,Greenfield Logistics,INV-500514,2026-05-21,2477.97,M. Garcia,Human Resources,ACH,Professional services,normal
+TXN-00803,V-005,Greenfield Logistics,INV-990257,2026-07-15,2029.41,J. Smith,Finance,ACH,Technical consulting,normal
+TXN-00804,V-008,Summit Office Supply,INV-156805,2026-01-06,2664.03,A. Chen,Marketing,ACH,Technical consulting,normal
+TXN-00805,V-006,Blue Harbor Technology,INV-254934,2026-01-06,2883.57,J. Smith,Marketing,ACH,Professional services,normal
+TXN-00806,V-007,Northstar Consulting,INV-971876,2026-07-24,1041.69,M. Garcia,Operations,Wire,Marketing services,normal
+TXN-00807,V-005,Northstar Consulting,INV-359903,2026-01-26,571.91,S. Patel,Marketing,Corporate Card,Technical consulting,normal
+TXN-00808,V-001,Greenfield Logistics,INV-379588,2026-02-06,1156.57,A. Chen,Operations,ACH,Technical consulting,normal
+TXN-00809,V-004,Northstar Consulting,INV-812147,2026-05-06,2915.9,L. Johnson,Engineering,ACH,Office equipment,normal
+TXN-00810,V-008,Brightline Solutions,INV-270426,2026-05-27,1150.21,L. Johnson,Human Resources,Wire,Logistics support,normal
+TXN-00811,V-001,Blue Harbor Technology,INV-562184,2026-02-25,1041.97,S. Patel,Finance,Wire,Marketing services,normal
+TXN-00812,V-008,Metro Data Services,INV-357442,2026-04-17,500.76,L. Johnson,Finance,ACH,Technical consulting,normal
+TXN-00813,V-006,Metro Data Services,INV-278142,2026-06-12,5111.36,M. Garcia,Finance,Wire,Software subscription,normal
+TXN-00814,V-003,Greenfield Logistics,INV-967934,2026-04-17,2798.15,L. Johnson,Human Resources,ACH,Marketing services,normal
+TXN-00815,V-007,Brightline Solutions,INV-279907,2026-04-03,2698.45,S. Patel,Engineering,ACH,Professional services,normal
+TXN-00816,V-007,Northstar Consulting,INV-184857,2026-01-19,3068.74,M. Garcia,Operations,ACH,Office equipment,normal
+TXN-00817,V-001,Blue Harbor Technology,INV-706543,2026-04-21,2380.01,A. Chen,Engineering,ACH,Professional services,normal
+TXN-00818,V-001,Summit Office Supply,INV-880571,2026-07-14,1395.75,M. Garcia,Operations,Corporate Card,Data services,normal
+TXN-00819,V-006,Blue Harbor Technology,INV-214746,2026-06-02,1470.79,L. Johnson,Marketing,ACH,Logistics support,normal
+TXN-00820,V-008,Summit Office Supply,INV-737058,2026-08-05,1239.03,L. Johnson,Operations,ACH,Marketing services,normal
+TXN-00821,V-001,Summit Office Supply,INV-586711,2026-01-30,9068.68,M. Garcia,Engineering,ACH,Office equipment,normal
+TXN-00822,V-006,Pacific Equipment,INV-847016,2026-01-02,2348.06,J. Smith,Finance,ACH,Office equipment,normal
+TXN-00823,V-002,Summit Office Supply,INV-214258,2026-05-13,1210.19,S. Patel,Engineering,ACH,Office equipment,normal
+TXN-00824,V-006,Brightline Solutions,INV-978306,2026-02-12,2214.04,A. Chen,Operations,ACH,Logistics support,normal
+TXN-00825,V-005,Pacific Equipment,INV-657199,2026-05-25,848.05,A. Chen,Finance,Wire,Software subscription,normal
+TXN-00826,V-001,Brightline Solutions,INV-857938,2026-08-07,4349.99,M. Garcia,Marketing,ACH,Professional services,normal
+TXN-00827,V-006,Northstar Consulting,INV-425765,2026-03-24,1064.55,L. Johnson,Operations,Wire,Data services,normal
+TXN-00828,V-008,Brightline Solutions,INV-949043,2026-05-14,2265.85,J. Smith,Marketing,ACH,Logistics support,normal
+TXN-00829,V-007,Redwood Marketing,INV-663725,2026-06-15,3271.11,M. Garcia,Marketing,Wire,Data services,normal
+TXN-00830,V-001,Brightline Solutions,INV-214241,2026-02-05,2100.85,J. Smith,Engineering,Wire,Software subscription,normal
+TXN-00831,V-002,Summit Office Supply,INV-930610,2026-08-06,1739.59,M. Garcia,Operations,ACH,Professional services,normal
+TXN-00832,V-002,Brightline Solutions,INV-816208,2026-02-19,1647.51,A. Chen,Operations,ACH,Technical consulting,normal
+TXN-00833,V-004,Redwood Marketing,INV-370180,2026-07-15,1577.05,M. Garcia,Engineering,Corporate Card,Logistics support,normal
+TXN-00834,V-002,Northstar Consulting,INV-591107,2026-06-10,1124.56,M. Garcia,Finance,ACH,Software subscription,normal
+TXN-00835,V-007,Greenfield Logistics,INV-449253,2026-02-04,1221.5,J. Smith,Marketing,ACH,Professional services,normal
+TXN-00836,V-007,Blue Harbor Technology,INV-589145,2026-06-25,4280.11,J. Smith,Finance,ACH,Professional services,normal
+TXN-00837,V-007,Brightline Solutions,INV-968835,2026-02-17,1524.54,S. Patel,Human Resources,ACH,Office equipment,normal
+TXN-00838,V-002,Summit Office Supply,INV-909028,2026-05-26,981.65,A. Chen,Finance,ACH,Logistics support,normal
+TXN-00839,V-001,Blue Harbor Technology,INV-293985,2026-08-21,1169.59,A. Chen,Human Resources,Corporate Card,Software subscription,normal
+TXN-00840,V-008,Redwood Marketing,INV-974622,2026-08-19,3345.06,A. Chen,Finance,ACH,Logistics support,normal
+TXN-00841,V-003,Greenfield Logistics,INV-494150,2026-07-30,2538.03,L. Johnson,Marketing,Wire,Professional services,normal
+TXN-00842,V-006,Northstar Consulting,INV-734353,2026-04-30,2354.81,J. Smith,Engineering,Wire,Logistics support,normal
+TXN-00843,V-008,Pacific Equipment,INV-787800,2026-05-15,1383.83,A. Chen,Human Resources,ACH,Software subscription,normal
+TXN-00844,V-001,Pacific Equipment,INV-534644,2026-03-13,2374.84,L. Johnson,Finance,ACH,Technical consulting,normal
+TXN-00845,V-001,Metro Data Services,INV-510991,2026-08-12,1076.73,A. Chen,Marketing,ACH,Data services,normal
+TXN-00846,V-001,Redwood Marketing,INV-510763,2026-04-27,1381.95,J. Smith,Human Resources,ACH,Software subscription,normal
+TXN-00847,V-002,Greenfield Logistics,INV-876293,2026-07-07,3072.89,A. Chen,Marketing,ACH,Software subscription,normal
+TXN-00848,V-001,Redwood Marketing,INV-447706,2026-03-30,2887.89,S. Patel,Marketing,ACH,Logistics support,normal
+TXN-00849,V-007,Redwood Marketing,INV-351930,2026-06-30,864.16,S. Patel,Engineering,ACH,Office equipment,normal
+TXN-00850,V-005,Blue Harbor Technology,INV-425438,2026-02-24,938.15,S. Patel,Finance,Wire,Office equipment,normal
+TXN-00851,V-008,Northstar Consulting,INV-275394,2026-06-26,1755.76,J. Smith,Human Resources,ACH,Logistics support,normal
+TXN-00852,V-007,Summit Office Supply,INV-452355,2026-01-12,5024.02,J. Smith,Human Resources,ACH,Data services,normal
+TXN-00853,V-008,Greenfield Logistics,INV-202670,2026-01-27,471.01,L. Johnson,Human Resources,ACH,Marketing services,normal
+TXN-00854,V-002,Blue Harbor Technology,INV-180777,2026-03-26,1960.42,L. Johnson,Marketing,ACH,Data services,normal
+TXN-00855,V-003,Northstar Consulting,INV-751464,2026-04-28,668.86,A. Chen,Finance,Wire,Professional services,normal
+TXN-00856,V-007,Pacific Equipment,INV-169692,2026-06-23,1083.21,S. Patel,Operations,ACH,Professional services,normal
+TXN-00857,V-002,Summit Office Supply,INV-611384,2026-03-30,1290.93,L. Johnson,Marketing,ACH,Professional services,normal
+TXN-00858,V-001,Redwood Marketing,INV-801882,2026-01-06,1244.72,M. Garcia,Human Resources,ACH,Marketing services,normal
+TXN-00859,V-006,Redwood Marketing,INV-752032,2026-03-20,1156.36,S. Patel,Engineering,ACH,Data services,normal
+TXN-00860,V-007,Metro Data Services,INV-501465,2026-04-16,1643.67,A. Chen,Human Resources,ACH,Logistics support,normal
+TXN-00861,V-008,Metro Data Services,INV-274268,2026-05-13,1155.26,A. Chen,Engineering,ACH,Technical consulting,normal
+TXN-00862,V-008,Summit Office Supply,INV-937615,2026-06-05,632.32,A. Chen,Engineering,Corporate Card,Software subscription,normal
+TXN-00863,V-001,Pacific Equipment,INV-851643,2026-03-02,2716.0,A. Chen,Finance,Wire,Technical consulting,normal
+TXN-00864,V-007,Summit Office Supply,INV-650998,2026-05-28,2668.75,L. Johnson,Finance,ACH,Technical consulting,normal
+TXN-00865,V-007,Pacific Equipment,INV-178085,2026-06-03,2830.09,S. Patel,Finance,Wire,Marketing services,normal
+TXN-00866,V-006,Greenfield Logistics,INV-131658,2026-07-08,600.96,S. Patel,Operations,ACH,Data services,normal
+TXN-00867,V-007,Northstar Consulting,INV-383697,2026-05-07,1986.83,J. Smith,Marketing,Corporate Card,Software subscription,normal
+TXN-00868,V-007,Pacific Equipment,INV-241770,2026-07-16,2538.65,L. Johnson,Human Resources,ACH,Software subscription,normal
+TXN-00869,V-004,Northstar Consulting,INV-874320,2026-02-24,836.91,A. Chen,Finance,ACH,Professional services,normal
+TXN-00870,V-001,Pacific Equipment,INV-285237,2026-06-23,1645.77,L. Johnson,Human Resources,ACH,Marketing services,normal
+TXN-00871,V-004,Northstar Consulting,INV-354385,2026-01-12,1516.9,A. Chen,Engineering,ACH,Data services,normal
+TXN-00872,V-002,Blue Harbor Technology,INV-978161,2026-01-26,5417.54,A. Chen,Finance,Wire,Software subscription,normal
+TXN-00873,V-001,Redwood Marketing,INV-836433,2026-07-29,5715.42,A. Chen,Finance,ACH,Professional services,normal
+TXN-00874,V-001,Brightline Solutions,INV-296833,2026-04-27,554.56,S. Patel,Marketing,ACH,Professional services,normal
+TXN-00875,V-006,Greenfield Logistics,INV-445188,2026-06-01,8275.48,J. Smith,Marketing,ACH,Marketing services,normal
+TXN-00876,V-005,Northstar Consulting,INV-564179,2026-05-27,902.44,M. Garcia,Marketing,Corporate Card,Marketing services,normal
+TXN-00877,V-005,Blue Harbor Technology,INV-697842,2026-06-18,3094.67,M. Garcia,Operations,Wire,Marketing services,normal
+TXN-00878,V-006,Brightline Solutions,INV-942558,2026-03-02,3074.27,S. Patel,Finance,ACH,Professional services,normal
+TXN-00879,V-005,Metro Data Services,INV-884012,2026-02-12,856.45,J. Smith,Finance,ACH,Professional services,normal
+TXN-00880,V-006,Northstar Consulting,INV-979472,2026-01-12,2254.37,A. Chen,Engineering,ACH,Professional services,normal
+TXN-00881,V-001,Greenfield Logistics,INV-136580,2026-07-29,1525.54,J. Smith,Human Resources,Corporate Card,Logistics support,normal
+TXN-00882,V-007,Summit Office Supply,INV-312724,2026-02-24,2345.64,J. Smith,Marketing,Wire,Logistics support,normal
+TXN-00883,V-004,Blue Harbor Technology,INV-606700,2026-05-20,1900.62,S. Patel,Human Resources,ACH,Office equipment,normal
+TXN-00884,V-002,Pacific Equipment,INV-144205,2026-04-21,3560.37,S. Patel,Marketing,Corporate Card,Professional services,normal
+TXN-00885,V-007,Redwood Marketing,INV-419806,2026-02-10,1718.16,A. Chen,Marketing,ACH,Office equipment,normal
+TXN-00886,V-006,Blue Harbor Technology,INV-238241,2026-04-10,1466.86,S. Patel,Finance,Wire,Logistics support,normal
+TXN-00887,V-001,Metro Data Services,INV-939627,2026-01-21,3335.71,A. Chen,Operations,ACH,Software subscription,normal
+TXN-00888,V-002,Greenfield Logistics,INV-156995,2026-02-12,2385.72,S. Patel,Operations,ACH,Logistics support,normal
+TXN-00889,V-001,Northstar Consulting,INV-233563,2026-02-04,2632.47,J. Smith,Engineering,ACH,Data services,normal
+TXN-00890,V-003,Greenfield Logistics,INV-275611,2026-07-20,1062.12,J. Smith,Finance,ACH,Professional services,normal
+TXN-00891,V-001,Blue Harbor Technology,INV-233734,2026-05-19,829.3,M. Garcia,Finance,Corporate Card,Technical consulting,normal
+TXN-00892,V-006,Blue Harbor Technology,INV-611712,2026-08-13,1131.14,J. Smith,Operations,ACH,Data services,normal
+TXN-00893,V-005,Brightline Solutions,INV-427912,2026-04-16,1092.76,S. Patel,Finance,Wire,Marketing services,normal
+TXN-00894,V-008,Metro Data Services,INV-921203,2026-02-18,2727.2,L. Johnson,Finance,Wire,Professional services,normal
+TXN-00895,V-006,Blue Harbor Technology,INV-334735,2026-05-28,3085.26,L. Johnson,Engineering,Wire,Office equipment,normal
+TXN-00896,V-005,Pacific Equipment,INV-583496,2026-08-13,1479.06,M. Garcia,Human Resources,Corporate Card,Marketing services,normal
+TXN-00897,V-005,Redwood Marketing,INV-694080,2026-05-11,4146.82,M. Garcia,Operations,ACH,Marketing services,normal
+TXN-00898,V-001,Pacific Equipment,INV-663389,2026-01-06,3981.86,M. Garcia,Finance,ACH,Professional services,normal
+TXN-00899,V-001,Metro Data Services,INV-816743,2026-03-16,1916.41,S. Patel,Human Resources,ACH,Marketing services,normal
+TXN-00900,V-005,Summit Office Supply,INV-281680,2026-08-13,958.88,M. Garcia,Operations,ACH,Technical consulting,normal
+TXN-00901,V-001,Redwood Marketing,INV-556710,2026-05-06,4555.06,M. Garcia,Engineering,Corporate Card,Logistics support,normal
+TXN-00902,V-001,Redwood Marketing,INV-820524,2026-08-19,1572.37,M. Garcia,Finance,ACH,Software subscription,normal
+TXN-00903,V-002,Metro Data Services,INV-876713,2026-05-05,1775.8,J. Smith,Operations,ACH,Technical consulting,normal
+TXN-00904,V-008,Blue Harbor Technology,INV-656009,2026-01-05,1311.93,M. Garcia,Finance,ACH,Marketing services,normal
+TXN-00905,V-004,Summit Office Supply,INV-686701,2026-07-31,917.49,S. Patel,Engineering,ACH,Professional services,normal
+TXN-00906,V-006,Blue Harbor Technology,INV-877722,2026-07-06,629.79,M. Garcia,Marketing,Wire,Professional services,normal
+TXN-00907,V-004,Summit Office Supply,INV-662383,2026-06-23,2468.5,L. Johnson,Human Resources,ACH,Technical consulting,normal
+TXN-00908,V-002,Blue Harbor Technology,INV-953957,2026-08-24,983.18,L. Johnson,Finance,Wire,Software subscription,normal
+TXN-00909,V-003,Northstar Consulting,INV-214834,2026-02-17,11952.49,M. Garcia,Engineering,ACH,Professional services,normal
+TXN-00910,V-001,Brightline Solutions,INV-413110,2026-08-07,807.59,L. Johnson,Finance,Wire,Data services,normal
+TXN-00911,V-007,Northstar Consulting,INV-200963,2026-02-26,722.49,A. Chen,Engineering,ACH,Data services,normal
+TXN-00912,V-002,Brightline Solutions,INV-181521,2026-08-24,2279.22,L. Johnson,Operations,ACH,Marketing services,normal
+TXN-00913,V-004,Northstar Consulting,INV-524746,2026-02-17,4420.7,J. Smith,Human Resources,ACH,Marketing services,normal
+TXN-00914,V-008,Pacific Equipment,INV-303335,2026-05-14,1706.13,M. Garcia,Engineering,ACH,Technical consulting,normal
+TXN-00915,V-005,Summit Office Supply,INV-466441,2026-07-10,2373.11,J. Smith,Marketing,Wire,Logistics support,normal
+TXN-00916,V-004,Redwood Marketing,INV-494056,2026-01-20,493.58,M. Garcia,Finance,ACH,Professional services,normal
+TXN-00917,V-005,Summit Office Supply,INV-658830,2026-01-16,1053.23,J. Smith,Operations,ACH,Professional services,normal
+TXN-00918,V-007,Greenfield Logistics,INV-951123,2026-07-27,814.15,S. Patel,Operations,Corporate Card,Professional services,normal
+TXN-00919,V-003,Greenfield Logistics,INV-864448,2026-01-15,477.34,A. Chen,Finance,ACH,Office equipment,normal
+TXN-00920,V-006,Redwood Marketing,INV-440478,2026-05-29,1765.23,L. Johnson,Operations,ACH,Office equipment,normal
+TXN-00921,V-007,Greenfield Logistics,INV-393026,2026-08-17,380.76,L. Johnson,Marketing,Corporate Card,Technical consulting,normal
+TXN-00922,V-005,Redwood Marketing,INV-793695,2026-05-29,692.68,M. Garcia,Marketing,ACH,Office equipment,normal
+TXN-00923,V-004,Pacific Equipment,INV-211286,2026-04-28,1153.81,M. Garcia,Finance,Wire,Professional services,normal
+TXN-00924,V-002,Greenfield Logistics,INV-586428,2026-04-13,953.05,S. Patel,Marketing,ACH,Technical consulting,normal
+TXN-00925,V-002,Summit Office Supply,INV-480714,2026-06-04,2116.81,A. Chen,Marketing,Wire,Software subscription,normal
+TXN-00926,V-008,Blue Harbor Technology,INV-264527,2026-05-19,1995.45,S. Patel,Finance,Wire,Technical consulting,normal
+TXN-00927,V-005,Summit Office Supply,INV-654803,2026-05-01,2924.76,J. Smith,Operations,Wire,Logistics support,normal
+TXN-00928,V-003,Blue Harbor Technology,INV-388660,2026-02-06,2667.91,S. Patel,Marketing,ACH,Technical consulting,normal
+TXN-00929,V-004,Blue Harbor Technology,INV-267038,2026-06-10,3434.16,J. Smith,Finance,Wire,Logistics support,normal
+TXN-00930,V-005,Brightline Solutions,INV-687872,2026-06-29,1633.95,S. Patel,Operations,ACH,Software subscription,normal
+TXN-00931,V-005,Northstar Consulting,INV-256778,2026-06-22,1992.72,S. Patel,Finance,Corporate Card,Marketing services,normal
+TXN-00932,V-006,Greenfield Logistics,INV-705567,2026-01-19,2281.26,J. Smith,Human Resources,ACH,Office equipment,normal
+TXN-00933,V-003,Pacific Equipment,INV-245884,2026-06-19,1793.77,S. Patel,Operations,ACH,Marketing services,normal
+TXN-00934,V-006,Brightline Solutions,INV-491283,2026-06-26,1263.73,M. Garcia,Human Resources,Corporate Card,Logistics support,normal
+TXN-00935,V-004,Blue Harbor Technology,INV-827192,2026-02-13,1318.05,J. Smith,Human Resources,ACH,Data services,normal
+TXN-00936,V-008,Blue Harbor Technology,INV-305780,2026-07-24,961.59,M. Garcia,Human Resources,ACH,Office equipment,normal
+TXN-00937,V-002,Summit Office Supply,INV-790864,2026-05-07,2151.78,L. Johnson,Operations,Wire,Technical consulting,normal
+TXN-00938,V-002,Redwood Marketing,INV-749715,2026-04-24,1539.0,A. Chen,Operations,ACH,Marketing services,normal
+TXN-00939,V-004,Brightline Solutions,INV-912390,2026-06-25,1063.09,L. Johnson,Engineering,ACH,Technical consulting,normal
+TXN-00940,V-005,Blue Harbor Technology,INV-251985,2026-05-05,1063.73,L. Johnson,Finance,ACH,Software subscription,normal
+TXN-00941,V-006,Blue Harbor Technology,INV-743604,2026-05-13,744.89,M. Garcia,Human Resources,ACH,Logistics support,normal
+TXN-00942,V-004,Summit Office Supply,INV-943001,2026-03-18,3090.99,S. Patel,Marketing,ACH,Office equipment,normal
+TXN-00943,V-008,Pacific Equipment,INV-786716,2026-08-13,1721.76,J. Smith,Finance,ACH,Data services,normal
+TXN-00944,V-004,Northstar Consulting,INV-269113,2026-08-24,933.72,A. Chen,Marketing,ACH,Technical consulting,normal
+TXN-00945,V-002,Greenfield Logistics,INV-839944,2026-02-02,2767.1,M. Garcia,Marketing,ACH,Office equipment,normal
+TXN-00946,V-001,Northstar Consulting,INV-196581,2026-06-26,1136.5,L. Johnson,Finance,ACH,Software subscription,normal
+TXN-00947,V-008,Blue Harbor Technology,INV-629959,2026-01-07,655.75,J. Smith,Engineering,ACH,Technical consulting,normal
+TXN-00948,V-002,Brightline Solutions,INV-547882,2026-03-31,3177.32,S. Patel,Finance,ACH,Technical consulting,normal
+TXN-00949,V-008,Northstar Consulting,INV-577970,2026-08-24,1153.88,S. Patel,Human Resources,ACH,Office equipment,normal
+TXN-00950,V-003,Summit Office Supply,INV-567594,2026-02-12,1254.15,S. Patel,Operations,ACH,Office equipment,normal
+TXN-00951,V-001,Brightline Solutions,INV-128328,2026-04-02,1680.37,J. Smith,Engineering,Corporate Card,Software subscription,normal
+TXN-00952,V-003,Redwood Marketing,INV-557373,2026-02-23,3438.13,J. Smith,Marketing,ACH,Professional services,normal
+TXN-00953,V-005,Northstar Consulting,INV-943069,2026-06-25,1657.43,M. Garcia,Finance,ACH,Data services,normal
+TXN-00954,V-004,Greenfield Logistics,INV-493000,2026-04-23,750.38,L. Johnson,Finance,ACH,Software subscription,normal
+TXN-00955,V-007,Brightline Solutions,INV-349221,2026-05-25,2329.76,L. Johnson,Engineering,ACH,Logistics support,normal
+TXN-00956,V-005,Greenfield Logistics,INV-995332,2026-08-18,1193.63,M. Garcia,Engineering,Wire,Software subscription,normal
+TXN-00957,V-004,Redwood Marketing,INV-189093,2026-05-07,5581.15,L. Johnson,Marketing,Corporate Card,Marketing services,normal
+TXN-00958,V-006,Redwood Marketing,INV-537652,2026-06-29,1634.79,M. Garcia,Marketing,Corporate Card,Data services,normal
+TXN-00959,V-008,Metro Data Services,INV-561337,2026-01-23,382.69,J. Smith,Human Resources,ACH,Marketing services,normal
+TXN-00960,V-004,Blue Harbor Technology,INV-530151,2026-02-23,2063.76,A. Chen,Human Resources,ACH,Professional services,normal
+TXN-00961,V-002,Pacific Equipment,INV-929552,2026-08-18,5790.58,S. Patel,Operations,ACH,Data services,normal
+TXN-00962,V-004,Brightline Solutions,INV-479589,2026-07-28,4556.67,S. Patel,Marketing,ACH,Marketing services,normal
+TXN-00963,V-007,Blue Harbor Technology,INV-975970,2026-06-09,5378.26,L. Johnson,Marketing,ACH,Office equipment,normal
+TXN-00964,V-002,Pacific Equipment,INV-160143,2026-04-02,843.16,S. Patel,Operations,ACH,Technical consulting,normal
+TXN-00965,V-008,Pacific Equipment,INV-760541,2026-02-18,2959.87,A. Chen,Operations,ACH,Data services,normal
+TXN-00966,V-005,Metro Data Services,INV-633660,2026-07-27,1023.21,M. Garcia,Finance,Corporate Card,Office equipment,normal
+TXN-00967,V-005,Summit Office Supply,INV-316491,2026-07-09,1892.75,S. Patel,Finance,ACH,Professional services,normal
+TXN-00968,V-003,Greenfield Logistics,INV-305170,2026-02-27,715.21,M. Garcia,Operations,ACH,Software subscription,normal
+TXN-00969,V-008,Pacific Equipment,INV-747711,2026-05-25,1076.11,M. Garcia,Engineering,Corporate Card,Data services,normal
+TXN-00970,V-001,Blue Harbor Technology,INV-673847,2026-06-01,1054.1,L. Johnson,Finance,Wire,Office equipment,normal
+TXN-00971,V-003,Pacific Equipment,INV-650052,2026-04-27,2933.82,S. Patel,Operations,ACH,Technical consulting,normal
+TXN-00972,V-004,Brightline Solutions,INV-145750,2026-08-13,2753.06,S. Patel,Finance,ACH,Logistics support,normal
+TXN-00973,V-004,Metro Data Services,INV-638094,2026-01-30,1958.5,M. Garcia,Marketing,ACH,Software subscription,normal
+TXN-00974,V-004,Summit Office Supply,INV-983247,2026-03-04,680.09,J. Smith,Engineering,ACH,Marketing services,normal
+TXN-00975,V-002,Redwood Marketing,INV-115590,2026-01-23,1336.0,M. Garcia,Marketing,ACH,Data services,normal
+TXN-00976,V-002,Northstar Consulting,INV-522104,2026-06-17,1007.3,L. Johnson,Marketing,ACH,Professional services,normal
+TXN-00977,V-001,Brightline Solutions,INV-544939,2026-06-05,2879.26,S. Patel,Human Resources,ACH,Marketing services,normal
+TXN-00978,V-005,Summit Office Supply,INV-907078,2026-08-27,3518.61,S. Patel,Finance,ACH,Data services,normal
+TXN-00979,V-003,Northstar Consulting,INV-354561,2026-05-12,3250.78,A. Chen,Finance,Wire,Professional services,normal
+TXN-00980,V-005,Pacific Equipment,INV-528004,2026-02-06,1001.35,L. Johnson,Human Resources,Wire,Data services,normal
+TXN-00981,V-005,Metro Data Services,INV-745472,2026-04-21,275.7,J. Smith,Operations,ACH,Logistics support,normal
+TXN-00982,V-006,Redwood Marketing,INV-154297,2026-01-22,518.78,L. Johnson,Finance,ACH,Office equipment,normal
+TXN-00983,V-005,Northstar Consulting,INV-820979,2026-06-12,4121.85,M. Garcia,Operations,ACH,Office equipment,normal
+TXN-00984,V-006,Pacific Equipment,INV-839991,2026-06-12,1260.4,L. Johnson,Operations,Wire,Professional services,normal
+TXN-00985,V-005,Metro Data Services,INV-747681,2026-07-28,1004.28,L. Johnson,Marketing,Wire,Software subscription,normal
+TXN-00986,V-006,Pacific Equipment,INV-683364,2026-03-24,4758.7,S. Patel,Operations,Wire,Technical consulting,normal
+TXN-00987,V-005,Pacific Equipment,INV-772849,2026-03-17,3723.26,L. Johnson,Engineering,ACH,Marketing services,normal
+TXN-00988,V-003,Blue Harbor Technology,INV-803580,2026-01-19,1662.19,S. Patel,Marketing,ACH,Software subscription,normal
+TXN-00989,V-002,Blue Harbor Technology,INV-913054,2026-04-10,1351.93,L. Johnson,Human Resources,ACH,Data services,normal
+TXN-00990,V-007,Brightline Solutions,INV-485352,2026-04-27,1501.37,A. Chen,Operations,ACH,Software subscription,normal
+TXN-00991,V-003,Redwood Marketing,INV-510450,2026-07-02,1896.29,A. Chen,Human Resources,Wire,Data services,normal
+TXN-00992,V-005,Greenfield Logistics,INV-674142,2026-07-02,4628.7,M. Garcia,Finance,ACH,Software subscription,normal
+TXN-00993,V-002,Summit Office Supply,INV-273780,2026-02-04,2152.97,L. Johnson,Marketing,ACH,Marketing services,normal
+TXN-00994,V-004,Metro Data Services,INV-870605,2026-03-11,2622.59,S. Patel,Engineering,ACH,Data services,normal
+TXN-00995,V-005,Pacific Equipment,INV-793461,2026-05-05,3498.28,M. Garcia,Human Resources,ACH,Marketing services,normal
+TXN-00996,V-006,Northstar Consulting,INV-667958,2026-03-23,764.87,M. Garcia,Marketing,ACH,Data services,normal
+TXN-00997,V-005,Redwood Marketing,INV-371485,2026-01-07,2672.21,S. Patel,Human Resources,ACH,Office equipment,normal
+TXN-00998,V-003,Brightline Solutions,INV-412905,2026-07-24,1350.91,L. Johnson,Finance,Corporate Card,Software subscription,normal
+TXN-00999,V-008,Summit Office Supply,INV-491476,2026-06-26,318.79,L. Johnson,Operations,Wire,Software subscription,normal
+TXN-01000,V-005,Summit Office Supply,INV-696275,2026-05-06,410.22,A. Chen,Marketing,Corporate Card,Data services,normal

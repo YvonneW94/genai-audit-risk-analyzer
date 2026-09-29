@@ -1,0 +1,4 @@
+metric,value
+evaluation_sample_size,10.0
+structured_output_success_rate,1.0
+rule_classification_agreement_rate,1.0
