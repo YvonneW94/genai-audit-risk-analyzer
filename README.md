@@ -68,6 +68,8 @@ Streamlit dashboard and downloadable results
         |
         v
 Evaluation and human audit review
+```
+
 ## GenAI Design
 
 The language model does not calculate transaction totals or independently search the complete dataset. Python performs the deterministic analysis first.
